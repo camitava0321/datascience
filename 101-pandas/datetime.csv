@@ -1,0 +1,6 @@
+fromtime,totime,package-name,mru-program,tag
+1387295797,1367633260,perl-base,/usr/bin/perl,perl
+1387295796,1354370480,login,/bin/su,login
+1387295743,1354341275,libtalloc2,/usr/lib/x86_64-linux-gnu/libtalloc.so.2.0.7,lib
+1387295743,1387224204,libwbclient0,/usr/lib/x86_64-linux-gnu/libwbclient.so.0,lib
+1387295742,1354341253,libselinux1,/lib/x86_64-linux-gnu/libselinux.so.1,lib
