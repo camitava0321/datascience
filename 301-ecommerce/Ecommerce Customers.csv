@@ -1,0 +1,81 @@
+CustomerID,Email,Address,Avatar,Avg. Session Length,Time on App,Time on Website,Length of Membership,Yearly Amount Spent
+1,mstephenson@fernandez.com ,"835 Frank Tunnel\nWrightmouth, MI 82180-9605 ",Violet ,32.497268,40.655651,38.577668,2.0413105,587.951054
+2,hduke@hotmail.com ,"4547 Archer Common\nDiazchester, CA 06566-8576 ",DarkGreen ,19.926272,41.109461,31.268959,12.664034,392.204933
+3,pallen@yahoo.com ,"24645 Valerie Unions Suite 582\nCobbborough, D... ",Bisque ,70.000915,26.330278,49.110597,2.0522715,487.547505
+4,riverarebecca@gmail.com ,"1414 David Throughway\nPort Jason, OH 22070-1220 ",SaddleBrown ,44.305557,29.717514,67.721283,1.5600895,581.852344
+5,mstephens@davidson-herman.com ,"14023 Rodriguez Passage\nPort Jacobville, PR 3... ",MediumAquaMarine ,43.330673,21.795189,33.536653,2.223154,599.406092
+6,mstephenson@fernandez.com ,"835 Frank Tunnel\nWrightmouth, MI 82180-9605 ",Violet ,24.797268,33.955651,17.577668,12.282621,569.551054
+7,hduke@hotmail.com ,"4547 Archer Common\nDiazchester, CA 06566-8576 ",DarkGreen ,22.526272,21.309461,17.268959,12.364034,373.804933
+8,pallen@yahoo.com ,"24645 Valerie Unions Suite 582\nCobbborough, D... ",Bisque ,56.150915,50.030278,21.110597,1.3022715,482.947505
+9,riverarebecca@gmail.com ,"1414 David Throughway\nPort Jason, OH 22070-1220 ",SaddleBrown ,23.605557,2.617514,49.721283,17.120179,602.852344
+10,mstephens@davidson-herman.com ,"14023 Rodriguez Passage\nPort Jacobville, PR 3... ",MediumAquaMarine ,25.030673,39.745189,15.536653,1.323154,602.906092
+11,mstephenson@fernandez.com ,"835 Frank Tunnel\nWrightmouth, MI 82180-9605 ",Violet ,11.347268,10.505651,23.577668,11.982621,574.151054
+12,hduke@hotmail.com ,"4547 Archer Common\nDiazchester, CA 06566-8576 ",DarkGreen ,15.776272,18.709461,17.268959,17.164034,416.704933
+13,pallen@yahoo.com ,"24645 Valerie Unions Suite 582\nCobbborough, D... ",Bisque ,15.750915,40.280278,48.110597,18.604543,480.647505
+14,riverarebecca@gmail.com ,"1414 David Throughway\nPort Jason, OH 22070-1220 ",SaddleBrown ,30.705557,48.067514,63.721283,3.5600895,609.852344
+15,mstephens@davidson-herman.com ,"14023 Rodriguez Passage\nPort Jacobville, PR 3... ",MediumAquaMarine ,20.180673,12.945189,72.536653,17.446308,609.906092
+16,mstephenson@fernandez.com ,"835 Frank Tunnel\nWrightmouth, MI 82180-9605 ",Violet ,38.547268,39.455651,27.577668,1.4413105,608.951054
+17,hduke@hotmail.com ,"4547 Archer Common\nDiazchester, CA 06566-8576 ",DarkGreen ,12.176272,40.959461,27.268959,10.264034,378.404933
+18,pallen@yahoo.com ,"24645 Valerie Unions Suite 582\nCobbborough, D... ",Bisque ,26.550915,30.980278,9.110597,1.9022715,480.647505
+19,riverarebecca@gmail.com ,"1414 David Throughway\nPort Jason, OH 22070-1220 ",SaddleBrown ,28.105557,24.067514,34.721283,2.0600895,579.552344
+20,mstephens@davidson-herman.com ,"14023 Rodriguez Passage\nPort Jacobville, PR 3... ",MediumAquaMarine ,59.130673,1,29.536653,3.723154,630.906092
+21,mstephenson@fernandez.com ,"835 Frank Tunnel\nWrightmouth, MI 82180-9605 ",Violet ,42.297268,24.505651,66.577668,2.7913105,571.851054
+22,hduke@hotmail.com ,"4547 Archer Common\nDiazchester, CA 06566-8576 ",DarkGreen ,22.876272,6.959461,27.268959,16.164034,395.704933
+23,pallen@yahoo.com ,"24645 Valerie Unions Suite 582\nCobbborough, D... ",Bisque ,40.900915,41.880278,37.110597,1.6022715,471.447505
+24,riverarebecca@gmail.com ,"1414 David Throughway\nPort Jason, OH 22070-1220 ",SaddleBrown ,53.455557,44.317514,16.721283,0.3600895,570.352344
+25,mstephens@davidson-herman.com ,"14023 Rodriguez Passage\nPort Jacobville, PR 3... ",MediumAquaMarine ,35.530673,35.995189,17.536653,1.473154,578.706092
+26,mstephenson@fernandez.com ,"835 Frank Tunnel\nWrightmouth, MI 82180-9605 ",Violet ,32.847268,3.905651,15.577668,3.0413105,567.251054
+27,hduke@hotmail.com ,"4547 Archer Common\nDiazchester, CA 06566-8576 ",DarkGreen ,19.176272,15.009461,9.268959,13.664034,387.604933
+28,pallen@yahoo.com ,"24645 Valerie Unions Suite 582\nCobbborough, D... ",Bisque ,37.200915,48.130278,21.110597,1.6022715,508.547505
+29,riverarebecca@gmail.com ,"1414 David Throughway\nPort Jason, OH 22070-1220 ",SaddleBrown ,23.955557,19.317514,26.721283,12.520179,579.552344
+30,mstephens@davidson-herman.com ,"14023 Rodriguez Passage\nPort Jacobville, PR 3... ",MediumAquaMarine ,22.030673,29.495189,38.536653,13.546308,630.906092
+31,mstephenson@fernandez.com ,"835 Frank Tunnel\nWrightmouth, MI 82180-9605 ",Violet ,26.447268,6.855651,33.577668,1.8913105,581.051054
+32,hduke@hotmail.com ,"4547 Archer Common\nDiazchester, CA 06566-8576 ",DarkGreen ,51.076272,52.059461,52.268959,1.032017,371.504933
+33,pallen@yahoo.com ,"24645 Valerie Unions Suite 582\nCobbborough, D... ",Bisque ,54.600915,36.530278,11.110597,3.3022715,482.947505
+34,riverarebecca@gmail.com ,"1414 David Throughway\nPort Jason, OH 22070-1220 ",SaddleBrown ,17.105557,28.517514,30.721283,11.020179,599.352344
+35,mstephens@davidson-herman.com ,"14023 Rodriguez Passage\nPort Jacobville, PR 3... ",MediumAquaMarine ,25.230673,49.845189,57.536653,2.473154,578.706092
+36,mstephenson@fernandez.com ,"835 Frank Tunnel\nWrightmouth, MI 82180-9605 ",Violet ,22.097268,39.005651,56.577668,11.682621,571.851054
+37,hduke@hotmail.com ,"4547 Archer Common\nDiazchester, CA 06566-8576 ",DarkGreen ,20.226272,1,23.268959,9.964034,402.704933
+38,pallen@yahoo.com ,"24645 Valerie Unions Suite 582\nCobbborough, D... ",Bisque ,65.850915,44.080278,47.110597,2.5522715,494.547505
+39,riverarebecca@gmail.com ,"1414 David Throughway\nPort Jason, OH 22070-1220 ",SaddleBrown ,25.605557,21.317514,47.721283,3.3100895,595.852344
+40,mstephens@davidson-herman.com ,"14023 Rodriguez Passage\nPort Jacobville, PR 3... ",MediumAquaMarine ,14.780673,12.895189,19.536653,12.346308,627.406092
+41,mstephenson@fernandez.com ,"835 Frank Tunnel\nWrightmouth, MI 82180-9605 ",Violet ,20.347268,47.305651,21.577668,15.582621,605.451054
+42,hduke@hotmail.com ,"4547 Archer Common\nDiazchester, CA 06566-8576 ",DarkGreen ,18.026272,38.859461,42.268959,11.464034,406.204933
+43,pallen@yahoo.com ,"24645 Valerie Unions Suite 582\nCobbborough, D... ",Bisque ,30.550915,16.880278,55.110597,1.0022715,505.047505
+44,riverarebecca@gmail.com ,"1414 David Throughway\nPort Jason, OH 22070-1220 ",SaddleBrown ,69.055557,19.567514,10.721283,1.1100895,574.952344
+45,mstephens@davidson-herman.com ,"14023 Rodriguez Passage\nPort Jacobville, PR 3... ",MediumAquaMarine ,14.480673,53.145189,19.536653,13.846308,616.906092
+46,mstephenson@fernandez.com ,"835 Frank Tunnel\nWrightmouth, MI 82180-9605 ",Violet ,30.747268,31.205651,60.577668,1.7413105,594.951054
+47,hduke@hotmail.com ,"4547 Archer Common\nDiazchester, CA 06566-8576 ",DarkGreen ,35.676272,41.759461,50.268959,1.032017,373.804933
+48,pallen@yahoo.com ,"24645 Valerie Unions Suite 582\nCobbborough, D... ",Bisque ,57.650915,29.980278,28.110597,0.7022715,485.247505
+49,riverarebecca@gmail.com ,"1414 David Throughway\nPort Jason, OH 22070-1220 ",SaddleBrown ,18.005557,25.867514,48.721283,10.720179,570.352344
+50,mstephens@davidson-herman.com ,"14023 Rodriguez Passage\nPort Jacobville, PR 3... ",MediumAquaMarine ,26.980673,30.145189,68.536653,2.073154,609.906092
+51,mstephenson@fernandez.com ,"835 Frank Tunnel\nWrightmouth, MI 82180-9605 ",Violet ,18.247268,51.305651,49.577668,13.482621,581.051054
+52,hduke@hotmail.com ,"4547 Archer Common\nDiazchester, CA 06566-8576 ",DarkGreen ,62.726272,44.559461,17.268959,1.032017,371.504933
+53,pallen@yahoo.com ,"24645 Valerie Unions Suite 582\nCobbborough, D... ",Bisque ,72.550915,17.380278,15.110597,0.7022715,476.047505
+54,riverarebecca@gmail.com ,"1414 David Throughway\nPort Jason, OH 22070-1220 ",SaddleBrown ,37.955557,42.567514,24.721283,1.4100895,565.752344
+55,mstephens@davidson-herman.com ,"14023 Rodriguez Passage\nPort Jacobville, PR 3... ",MediumAquaMarine ,23.180673,33.395189,25.536653,16.946308,592.506092
+56,mstephenson@fernandez.com ,"835 Frank Tunnel\nWrightmouth, MI 82180-9605 ",Violet ,32.847268,20.255651,27.577668,0.8413105,571.851054
+57,hduke@hotmail.com ,"4547 Archer Common\nDiazchester, CA 06566-8576 ",DarkGreen ,47.876272,39.759461,49.268959,0.282017,416.704933
+58,pallen@yahoo.com ,"24645 Valerie Unions Suite 582\nCobbborough, D... ",Bisque ,15.700915,37.930278,27.110597,12.904543,519.047505
+59,riverarebecca@gmail.com ,"1414 David Throughway\nPort Jason, OH 22070-1220 ",SaddleBrown ,19.905557,31.017514,26.721283,12.520179,592.352344
+60,mstephens@davidson-herman.com ,"14023 Rodriguez Passage\nPort Jacobville, PR 3... ",MediumAquaMarine ,39.480673,36.645189,39.536653,1.623154,609.906092
+61,mstephenson@fernandez.com ,"835 Frank Tunnel\nWrightmouth, MI 82180-9605 ",Violet ,19.247268,40.505651,29.577668,13.182621,608.951054
+62,hduke@hotmail.com ,"4547 Archer Common\nDiazchester, CA 06566-8576 ",DarkGreen ,18.876272,31.509461,9.268959,12.064034,383.004933
+63,pallen@yahoo.com ,"24645 Valerie Unions Suite 582\nCobbborough, D... ",Bisque ,15.850915,32.430278,19.110597,12.904543,491.047505
+64,riverarebecca@gmail.com ,"1414 David Throughway\nPort Jason, OH 22070-1220 ",SaddleBrown ,15.855557,1,18.721283,12.220179,602.852344
+65,mstephens@davidson-herman.com ,"14023 Rodriguez Passage\nPort Jacobville, PR 3... ",MediumAquaMarine ,67.130673,20.595189,55.536653,1.623154,590.206092
+66,mstephenson@fernandez.com ,"835 Frank Tunnel\nWrightmouth, MI 82180-9605 ",Violet ,64.147268,33.355651,23.577668,1.5913105,576.451054
+67,hduke@hotmail.com ,"4547 Archer Common\nDiazchester, CA 06566-8576 ",DarkGreen ,16.476272,38.959461,64.268959,11.164034,387.604933
+68,pallen@yahoo.com ,"24645 Valerie Unions Suite 582\nCobbborough, D... ",Bisque ,18.200915,14.930278,59.110597,12.904543,480.647505
+69,riverarebecca@gmail.com ,"1414 David Throughway\nPort Jason, OH 22070-1220 ",SaddleBrown ,32.055557,19.267514,38.721283,2.0600895,561.152344
+70,mstephens@davidson-herman.com ,"14023 Rodriguez Passage\nPort Jacobville, PR 3... ",MediumAquaMarine ,16.880673,16.445189,27.536653,16.446308,627.406092
+71,mstephenson@fernandez.com ,"835 Frank Tunnel\nWrightmouth, MI 82180-9605 ",Violet ,74.247268,27.755651,9.577668,2.7913105,605.451054
+72,hduke@hotmail.com ,"4547 Archer Common\nDiazchester, CA 06566-8576 ",DarkGreen ,17.776272,11.359461,30.268959,15.164034,423.704933
+73,pallen@yahoo.com ,"24645 Valerie Unions Suite 582\nCobbborough, D... ",Bisque ,22.550915,25.580278,73.110597,14.604543,466.847505
+74,riverarebecca@gmail.com ,"1414 David Throughway\nPort Jason, OH 22070-1220 ",SaddleBrown ,14.355557,48.117514,31.721283,11.620179,570.352344
+75,mstephens@davidson-herman.com ,"14023 Rodriguez Passage\nPort Jacobville, PR 3... ",MediumAquaMarine ,75.980673,41.895189,9.536653,1.023154,609.906092
+76,mstephenson@fernandez.com ,"835 Frank Tunnel\nWrightmouth, MI 82180-9605 ",Violet ,30.197268,22.255651,69.577668,1.5913105,585.651054
+77,hduke@hotmail.com ,"4547 Archer Common\nDiazchester, CA 06566-8576 ",DarkGreen ,52.326272,27.309461,32.268959,0.432017,376.104933
+78,pallen@yahoo.com ,"24645 Valerie Unions Suite 582\nCobbborough, D... ",Bisque ,39.100915,53.080278,33.110597,1.1522715,476.047505
+79,riverarebecca@gmail.com ,"1414 David Throughway\nPort Jason, OH 22070-1220 ",SaddleBrown ,60.155557,24.267514,16.721283,3.8100895,565.752344
+80,mstephens@davidson-herman.com ,"14023 Rodriguez Passage\nPort Jacobville, PR 3... ",MediumAquaMarine ,23.280673,31.495189,21.536653,13.246308,590.206092
