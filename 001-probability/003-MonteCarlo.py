@@ -14,10 +14,10 @@ def checkRoll(roll):
     if roll == 100:
         #print roll,'roll was 100, you lose. What are the odds?! Play again!'
         return False
-    elif roll <= 51:
+    if roll <= 51:
         #print roll,'roll was 1-50, you lose.'
         return False
-    elif 100 > roll >= 51:
+    if 100 > roll >= 51:
         #print roll,'roll was 51-99, you win! *pretty lights flash* (play more!)'
         return True
 
@@ -84,7 +84,6 @@ def complex_bettor(funds):
         wager = min(100, value/10)
         currentWager += 1
         plt.plot(wX,vY)
-        #print ('Attempt: ',currentWager, 'Funds:', value)
         if currentWager==maxWagers:
             break;
         #Complexity 4: After 75% of the game, player is given choice to quit
@@ -92,7 +91,7 @@ def complex_bettor(funds):
         if gameFraction>=0.75:
             quitted=quitGame(gameFraction, value/funds)
             #print(quitted)
-            if quitted==True:
+            if quitted is True:
                 break
     return currentWager, value, quitted
     
