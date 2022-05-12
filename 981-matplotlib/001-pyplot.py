@@ -281,9 +281,6 @@ for line in ax1.yaxis.get_ticklines():
 
 plt.show()
 
-#%% - Simple Axisline4
-from mpl_toolkits.axes_grid1 import host_subplot
-
 ax = host_subplot(111)
 xx = np.arange(0, 2*np.pi, 0.01)
 ax.plot(xx, np.sin(xx))
