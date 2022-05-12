@@ -131,10 +131,6 @@ def plot_svc_decision_function(model, ax=None, plot_support=True):
 plt.scatter(X[:, 0], X[:, 1], c=y, s=50, cmap='autumn')
 plot_svc_decision_function(model);
 
-
-
-import numpy as np
-
 training_data = np.array([[40.0, 2088139.0],
   [68.0, 927650.0],
   [71.0, 1133323.0],

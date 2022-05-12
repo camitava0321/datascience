@@ -30,9 +30,6 @@ plt.xticks(())
 plt.yticks(())
 
 plt.show()
-
-#next import and create an instance of the LinearRegression class
-from sklearn.linear_model import LinearRegression
 lr=LinearRegression() # create model
 
 #All Scikit-learn objects use the fit method to compute model parameters and 
@@ -90,9 +87,6 @@ qp = qr.predict(qfit.fit_transform(xi))
 #%% - Decision Trees
 from sklearn import tree
 clf = tree.DecisionTreeClassifier()
-
-#Some example data,
-import numpy as np
 M=np.fromfunction(lambda i,j:j>=2,(4,4)).astype(int)
 #fromfunction creates Numpy arrays using the indicies as inputs to a function whose value is the corresponding array entry.
 print (M)

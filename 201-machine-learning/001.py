@@ -51,9 +51,6 @@ qp = qr.predict(qfit.fit_transform(xi))
 #%% - Decision Trees
 from sklearn import tree
 clf = tree.DecisionTreeClassifier()
-
-#Some example data,
-import numpy as np
 M=np.fromfunction(lambda i,j:j>=2,(4,4)).astype(int)
 #fromfunction creates Numpy arrays using the indicies as inputs to a function whose value is the corresponding array entry.
 print (M)

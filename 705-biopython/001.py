@@ -76,25 +76,10 @@ for seq_record in SeqIO.parse("ls_orchid.fasta", "fasta"):
     print (seq_record.id)
     print (repr(seq_record.seq))
     print (len(seq_record))
-
-#Notice that the FASTA format does not specify the alphabet, 
-#so Bio.SeqIO has defaulted to the rather generic SingleLetterAlphabet() 
-#rather than something DNA specific.
-
-#%% - Simple GenBank parsing example
-#Load the GenBank file ls_orchid.gbk 
-
-from Bio import SeqIO
 for seq_record in SeqIO.parse("ls_orchid.gbk", "genbank"):
     print(seq_record.id)
     print(repr(seq_record.seq))
     print(len(seq_record))
-
-#This time Bio.SeqIO has been able to choose a sensible alphabet, IUPAC Ambiguous DNA. 
-#You’ll also notice that a shorter string has been used as the seq_record.id in this case.
-
-#%% - Transcription
-from Bio.Seq import Seq
 from Bio.Alphabet import IUPAC
 codingDNA = Seq('ATGGCCATTGTAATGGGCCGCTGAAAGGGTGCCCGATAG',IUPAC.unambiguous_dna)
 print (codingDNA)
