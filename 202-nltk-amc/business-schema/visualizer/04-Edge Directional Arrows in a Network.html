@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title id="title">
+</title>
+<link rel="stylesheet" href="styles.css"/>
+
+<!-- load D3js -->
+<script src="d3.js"></script>
+
+<!-- load D3plus after D3js -->
+<script src="d3plus.js"></script>
+<!-- load data file after D3plus -->
+<script src="networkData.js"></script>
+
+<script type="text/javascript">
+var title="Edge Directional Arrows in a Network"
+document.getElementById("title").innerHTML=title;
+</script>
+
+<style>
+</style>
+</head>
+<body>
+<!-- create container element for visualization -->
+<div id="header">
+<h1 id="caption"></h1>
+<p>
+The "arrows" property of the .edges( ) method toggles the visibility of edge directional arrows. The directionality defaults to pointing at the "target" node.
+
+<br/>
+</p>
+</div>
+<div id="viz"></div>
+<script>
+document.getElementById("caption").innerHTML=title;
+
+var visualization = d3plus.viz()
+  .container("#viz")
+  .type("network")
+  .data(sample_data)
+  //.nodes(positions)
+  .attrs(attributes)
+  .color("hex")
+  .background("#EEEEFF")
+  .edges({
+      "label": "UD",
+	  "size": "strength",
+      "value": connections
+    })
+  .edges({"arrows": true})
+  .size("size")
+  .id(["POS", "name"])
+  .depth(1)
+  .descs("POS")
+  //.text(function(text, key){return "name"+","+"POS"})
+  .ui([{"method": "text", "value": [ "name" , "POS" ]}])
+  .draw()
+
+                   
+</script>
+</body>
+</html>
+
