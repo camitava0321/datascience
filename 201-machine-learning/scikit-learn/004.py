@@ -31,12 +31,6 @@ list(clf.predict(iris.data[:3]))
 clf.fit(iris.data, iris.target_names[iris.target])  
 
 list(clf.predict(iris.data[:3]))  
-#Here predict() returns a string array, since iris.target_names was for fitting.
-
-#Refitting and updating parameters
-#Hyper-parameters of an estimator can be updated after it has been constructed via the sklearn.pipeline.Pipeline.set_params method. Calling fit() more than once will overwrite what was learned by any previous fit():
-import numpy as np
-from sklearn.svm import SVC
 
 rng = np.random.RandomState(0)
 X = rng.rand(100, 10)
@@ -51,12 +45,6 @@ clf.predict(X_test)
 #kernel is now changed back to rbf to refit the estimator and to make a second prediction.
 clf.set_params(kernel='rbf').fit(X, y)  
 clf.predict(X_test)
-
-
-#Multiclass vs. multilabel fitting
-#When using multiclass classifiers, 
-#the learning and prediction task that is performed is dependent on the format of the target data fit upon:
-from sklearn.svm import SVC
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.preprocessing import LabelBinarizer
 X = [[1, 2], [2, 4], [4, 5], [3, 2], [3, 1]]

@@ -204,7 +204,6 @@ def reCalculateShortestPath(graph, source, destination):
    count = 0
    global globalPath
    global globalEdge
-   global globalLegend
    while count < maxExperiments:
       time.sleep(5) #in seconds
       print('ReCalculation : ',globalExperimentID)
@@ -243,8 +242,6 @@ def plotNetwork(graph, pos, legend=None):
 
 def threadPlotNetwork(graph, pos):
    count = 0
-   global globalPath
-   global globalEdge
    while count < maxExperiments:
       time.sleep(6) #in seconds
       print('Plot : ',globalExperimentID)
@@ -336,9 +333,6 @@ exitFlag = 1
 for t in threads:
    t.join()
 print ("Exiting Main Thread")
-   
-
-    
 #H = nx.read_edgelist(path="06-routeOpt.data", delimiter="!")
 #nx.draw(H, with_labels = True, node_size=500) #node_color = color_map,)
 #plot.show()
