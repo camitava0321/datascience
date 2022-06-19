@@ -42,7 +42,7 @@ def getPAN(surname):
     import string
     first_char = ['A','B','C','D','E','F']
     dummy = random.choice(first_char)
-    dummy = dummy+''.join([random.choice(string.ascii_uppercase) for n in xrange(2)])
+    dummy = dummy+''.join([random.choice(string.ascii_uppercase) for n in range(2)])
     dummy = dummy+'P'+surname[0]+"{:04d}".format((random.randint(0,9999)))
     dummy = dummy+random.choice(string.ascii_uppercase)
     PAN=dummy
@@ -53,3 +53,32 @@ def getProbabilisticBoolean(list, probabilityOfFirst):
     newList = list[0]*int(probabilityOfFirst*10) + list[1]*int((1-probabilityOfFirst)*10)
     retValue = random.choice(newList)
     return retValue
+
+# Return Timeseries data
+# Default behaviour : Return MultiVariate data with
+#                            * Non-uniform timestamp YYYYMMDDHHMMSSmmmm 
+#                            * 3 independent features (Two numeric N1, N2, One Class C1)
+#                            * 2 dependent features (Numeric DN1, DN2)
+#                            * 200 rows
+def getTimeSeriesDataset(rows=200, timegapMillies=-1, featureDict={}):
+    from datetime import datetime
+    dataset = []
+    if len(featureDict)==0:
+        featureDict={0:["N1",0,0], 1:["N2",0,0],2:["C1",1,0],3:["DN1",0,"N1"],4:["DN2",0,"N2"]}   
+    
+    columnNames=["TIMESTAMP"]
+    for i in featureDict:
+        columnNames.append(featureDict[i][0])
+    
+    print(columnNames)
+    dataset.append(columnNames)
+    count=10
+    rowcount=0
+    while (count!=0):
+        timestamp = datetime.today().strftime('%Y%m%d%H%M%S%f')
+        timestamp = timestamp+str(rowcount).format("%00n")
+        dataset.append([timestamp,1,1,1,1])
+        count -= 1
+        rowcount=rowcount+1
+        
+    return dataset

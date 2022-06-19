@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 # Author: Amitava Chakraborty
+print(__doc__)
+
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn import datasets, linear_model
@@ -38,7 +40,7 @@ print("Mean squared error: %.2f"
 # Explained variance score: 1 is perfect prediction
 print('Variance score: %.2f' % r2_score(diabetes_y_test, diabetes_y_pred))
 
-# Plot outputs
+#%% Plot outputs
 plt.scatter(diabetes_X_test, diabetes_y_test,  color='black')
 plt.plot(diabetes_X_test, diabetes_y_pred, color='blue', linewidth=3)
 

@@ -1,0 +1,46 @@
+BA : Hi, we are here to discuss the requirements around the hotel reservation. 
+Business : Welcome Ajay, yes, we can start the discussion.
+
+BA : So, what are the broad requirements ?
+Business : We want to start modernization of our hotel reservation.
+           The customer should be able to use any of the following : Telephone based booking, Web based booking or In-person booking.
+		   the process should be similar for all : the prospective customers need to check for a property whether any rooms are available or not
+		   for the given request.
+
+BA : what do you mean by "given request"?
+Business : Means the type of room, say for example two double bed room with pool view or a suite.
+
+BA : Okey. Please go ahead.
+Business : If the property has capability of fulfilling that request, then the customer needs to be informed about the rooms rates, other
+			room services,etc.
+			
+BA : If there are no rooms for the given request?
+Business: If there are no rooms available for the given request, then the guest should be informed about other properties in the vicinity
+			to check for rooms there.
+			Once the rooms rates are decided then the customer needs to provide personal details like Name, Age, reason of stay,etc.
+			Once those are done , an initial amount can charged as booking amount.
+			After the rooms are booked the rooms must be removed from the inventory.
+			If the stay is leisure then ,the the booking clerk (telephonic or otherwise) may brief the guest about some activities he may prefer.
+
+BA : But if the stay is non-leisure?
+Business: The booking clerk should ask whether the guest needs any additional services being extented, for example use of conference room. etc
+
+BA : You talked about room amenities? Can you provide a few examples?
+Business : Sure, there are many room services. I will provide a complete list later-on. But for the time being , examples of
+		 room amenities may be complimentary use of gym, or In-Room Cocktail Station or free coupons to be used at Local Merchants.
+		 Some of these are obviously charged to the guest.
+		The booking clerk should also ask whether the guest needs to avail hotel pickup or drop. If the guest is using any of our travel partners
+		to come to our location, the pickup and drop are complimentary. And depending on the type of room booked or ticket type used at our
+		travel partners, we provide limo service.
+
+BA : Who are these business partners and what do they provide?
+Business : There are many type of business partners say for example ABC Airways is our airlines partner. If the guest has availed First class or
+		business class ticket, then he is provided limo airport drop & pickup automatically.
+		Or if the guest has booked premium suite then also he is provided free limo airport drop and pickup.
+		The booking clerk should also enquire about any special service request. for example : if any one in the touring party needs wheelchair, etc
+		Ohh...I forgot to tell you the property representative should also ask about the number of people for the booking.
+
+BA : You talked about removing the room from inventory when there is a booking made. Can we talk a bit more on that?
+Business : Okey. The primary inventory is room obviously. The secondary inventory can be anything that is used in a hotel. 
+		Be it restaurants, and gift shops to such as toiletries, towels, blankets, and other items.
+		

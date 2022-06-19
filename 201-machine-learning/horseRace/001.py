@@ -12,7 +12,7 @@ from sklearn import preprocessing
 df = pd.read_csv("Horse Race Probability.csv")
 print (df)
 
-
+#%%
 fig=plt.figure()
 fig.set_size_inches(12,8)
 min_max_scaler = preprocessing.MinMaxScaler()
@@ -20,6 +20,7 @@ float_array = df['Expected return for $1'].values.astype(float)
 float_array=float_array.reshape(-1,1)
 scaled_array = min_max_scaler.fit_transform(float_array)
 print(scaled_array)
+#%%
 plt.bar(df['Horse'], df['Calculated Winning Probablity'],label='CWP')
 plt.plot(df['Horse'], scaled_array, 'g', label='return')
 plt.plot(df['Horse'], scaled_array, 'go')

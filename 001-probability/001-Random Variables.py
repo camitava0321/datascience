@@ -4,7 +4,7 @@
 #Create a Python dictionary
 #key - a collection of i and j - value i+j
 d={(i,j):i+j for i in range(1,7) for j in range(1,7)}
-print d
+print (d)
 
 #next step - collect all of the (i,j) pairs that sum to each of the possible values from 2 to 12
 
@@ -13,13 +13,12 @@ from collections import defaultdict
 dinv = defaultdict(list)
 #creates dictionaries with default values when it encounters a new key. 
 #Otherwise, we would have had to create default values manually for a regular dictionary.
-for i,j in d.iteritems():
+for i,j in d.items():
     dinv[j].append(i)
 
 #How do dinv look
 for key in dinv.keys() :
-    print key, " : ", dinv[key]
-
+    print (key, " : ", dinv[key])
 #e.g, dinv[7] contains the list of pairs that sum to seven 
 #[(1, 6), (2, 5), (5, 2), (6, 1), (4, 3), (3, 4)]
 
@@ -33,8 +32,8 @@ for key in dinv.keys() :
 #since, 5+6=6+5=11
 #Hence P(11) = P({(5, 6)})+P({(6, 5)}) = 1/36+1/36 = 2/36. 
 #Repeating this procedure for all the elements, we derive the probability mass function
-X={i:len(j)/36.0 for i,j in dinv.iteritems() }
-print X
+X={i:len(j)/36.0 for i,j in dinv.items() }
+print (X)
 
 #%% - With the same framework, we ask
 #what is the probability that half the product of 3 dice will exceed the their sum?
@@ -44,7 +43,7 @@ d={(i,j,k):((i*j*k)/2>i+j+k) for i in range(1,7)
 for j in range(1,7)
 for k in range(1,7)}
 
-print d
+print (d)
 
 #keys of this dictionary d : the triples and 
 #values : logical values of whether or not half the product of three dice exceeds their sum 
@@ -57,7 +56,7 @@ for i,j in d.iteritems():
 #The dice readings are independent - so probability of any triple is 1/63. 
 #Finally, we collect this for each outcome as in the following,
 X={i:len(j)/6.0**3 for i,j in dinv.iteritems() }
-print X
+print (X)
 
 #Thus, the probability of half the product of three dice exceeding their sum is
 #136/(6.0**3) = 0.63. 
@@ -95,4 +94,4 @@ d.head(5)
 #With all that established, we can compute the density of all the dice outcomes 
 #by using groupby as in the following,
 d.groupby('sm')['p'].sum()
-print sm
+print (sm)
