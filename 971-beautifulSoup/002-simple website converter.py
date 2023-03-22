@@ -4,67 +4,36 @@ Created on Tue Feb 27 13:57:09 2018
 
 @author: Amitava Chakraborty
 
-Web scraping in Python using Beautiful Soup 4
-""
-getting data out of HTML, XML and other markup languages. 
-We will try to scrap webpage from various different websites (including IMDB). 
-searching and parsing HTML web page.
-
-unstructured data/information (mostly web data) available freely. 
-web scraping is very useful tool to transform unstructured data into structured data 
-that is easier to read & analyze. 
-one way to collect, organize and analyze this enormous amount of data is through web scraping. 
-
-Web-scraping which is also known as web data extraction or web harvesting is the 
-extraction of data from web. 
-
-Why Web-scraping?
-To automate most of the things a human does while browsing. 
-Web-scraping is used in an enterprise in a variety of ways −
-
-Data for Research - Smart analyst (like researcher or journalist) uses web scrapper 
-instead of manually collecting and cleaning data from the websites.
-
-Products prices & popularity comparison - Currently there are couple of services 
-which use web scrappers to collect data from numerous online sites and use it to 
-compare products popularity and prices.
-
-SEO Monitoring - There are numerous SEO tools such as Ahrefs, Seobility, SEMrush, etc., 
-which are used for competitive analysis and for pulling data from your client’s websites.
-
-Search engines - There are some big IT companies whose business solely depends on 
-web scraping.
-
-Sales and Marketing - The data gathered through web scraping can be used by marketers 
-to analyze different niches and competitors or by the sales specialist for 
-selling content marketing or social media promotion services.
-
-The Beautiful Soup is a python library which is named after a Lewis Carroll poem 
-of the same name in “Alice’s Adventures in the Wonderland”. 
-Beautiful Soup is a python package and as the name suggests, 
-parses the unwanted data and helps to organize and format the messy web data by 
-fixing bad HTML and present to us in an easily-traversible XML structures.
-
-In short, Beautiful Soup is a python package which allows us to pull data out of HTML 
-and XML documents.
-
-
+Web scraping and Website Converter (de-cluttering a page)
 """
+
 from bs4 import BeautifulSoup
 import requests
-url = "https://www.tutorialspoint.com/index.htm"
-url = "https://en.wikipedia.org/wiki/Harry_Potter"
+url = "https://www.tutorialspoint.com/beautiful_soup/beautiful_soup_navigating_by_tags.htm"
 
+
+def writeToFile(contents):
+    f = open("abc.htm", "w")
+    f.write(contents)
+    f.close()
+    
 req = requests.get(url)
 soup = BeautifulSoup(req.text, "html.parser")
-print(soup.title)
-print(soup.head)
-print (soup.body)
-print (soup.body.h2)
-print (soup.find_all("h2"))
-print (len(soup.contents))
-print(len(list(soup.children)))
-print(len(list(soup.descendents)))
+
+t = soup.find("div", {"id": "mainContent"})
+t=t.wrap(soup.new_tag("body"))
+t.insert(0,soup.new_tag("title","AMC Simple Website Converter"))
+print(t)
+writeToFile(t.prettify())
+
+#print(soup.title)
+#print(soup.head)
+#print (soup.body)
+#print (soup.body.h2)
+#print (soup.find_all("h2"))
+#print (len(soup.contents))
+#print(len(list(soup.children)))
+#print(len(list(soup.descendents)))
 
 #%% - One common task is to extract all the URLs within a webpage. 
 #For that we just need to add the below line of code −

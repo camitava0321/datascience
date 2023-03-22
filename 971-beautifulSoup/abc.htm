@@ -1,0 +1,500 @@
+<html>
+ <title>
+  AMC Simple Website Converter
+ </title>
+ <body>
+  <div class="col-sm-12 col-md-8 col-xl-6 rounded-3 tutorial-content" id="mainContent">
+   <h1>
+    Beautiful Soup - Navigating by Tags
+   </h1>
+   <hr/>
+   <div class="mui-container-fluid button-borders">
+    <div class="pre-btn">
+     <a href="/beautiful_soup/beautiful_soup_kinds_of_objects.htm">
+      <i class="fal fa-chevron-circle-left">
+      </i>
+      Previous Page
+     </a>
+    </div>
+    <div class="nxt-btn">
+     <a href="/beautiful_soup/beautiful_soup_searching_the_tree.htm">
+      Next Page
+      <i class="fal fa-chevron-circle-right">
+      </i>
+     </a>
+    </div>
+   </div>
+   <div class="clear">
+   </div>
+   <p>
+    In this chapter, we shall discuss about Navigating by Tags.
+   </p>
+   <p>
+    Below is our html document −
+   </p>
+   <pre class="prettyprint notranslate">
+&gt;&gt;&gt; html_doc = """
+&lt;html&gt;&lt;head&gt;&lt;title&gt;Tutorials Point&lt;/title&gt;&lt;/head&gt;
+&lt;body&gt;
+&lt;p class="title"&gt;&lt;b&gt;The Biggest Online Tutorials Library, It's all Free&lt;/b&gt;&lt;/p&gt;
+&lt;p class="prog"&gt;Top 5 most used Programming Languages are:
+&lt;a href="https://www.tutorialspoint.com/java/java_overview.htm" class="prog" id="link1"&gt;Java&lt;/a&gt;,
+&lt;a href="https://www.tutorialspoint.com/cprogramming/index.htm" class="prog" id="link2"&gt;C&lt;/a&gt;,
+&lt;a href="https://www.tutorialspoint.com/python/index.htm" class="prog" id="link3"&gt;Python&lt;/a&gt;,
+&lt;a href="https://www.tutorialspoint.com/javascript/javascript_overview.htm" class="prog" id="link4"&gt;JavaScript&lt;/a&gt; and
+&lt;a href="https://www.tutorialspoint.com/ruby/index.htm" class="prog" id="link5"&gt;C&lt;/a&gt;;
+as per online survey.&lt;/p&gt;
+&lt;p class="prog"&gt;Programming Languages&lt;/p&gt;
+"""
+&gt;&gt;&gt;
+&gt;&gt;&gt; from bs4 import BeautifulSoup
+&gt;&gt;&gt; soup = BeautifulSoup(html_doc, 'html.parser')
+&gt;&gt;&gt;
+</pre>
+   <p>
+    Based on the above document, we will try to move from one part of document to another.
+   </p>
+   <h2>
+    Going down
+   </h2>
+   <p>
+    One of the important pieces of element in any piece of HTML document are tags, which may contain other tags/strings (tag’s children). Beautiful Soup provides different ways to navigate and iterate over’s tag’s children.
+   </p>
+   <h3>
+    Navigating using tag names
+   </h3>
+   <p>
+    Easiest way to search a parse tree is to search the tag by its name. If you want the &lt;head&gt; tag, use soup.head −
+   </p>
+   <pre class="prettyprint notranslate">
+&gt;&gt;&gt; soup.head
+&lt;head&gt;&amp;ttitle&gt;Tutorials Point&lt;/title&gt;&lt;/head&gt;
+&gt;&gt;&gt; soup.title
+&lt;title&gt;Tutorials Point&lt;/title&gt;
+</pre>
+   <p>
+    To get specific tag (like first &lt;b&gt; tag) in the &lt;body&gt; tag.
+   </p>
+   <pre class="prettyprint notranslate">
+&gt;&gt;&gt; soup.body.b
+&lt;b&gt;The Biggest Online Tutorials Library, It's all Free&lt;/b&gt;
+</pre>
+   <p>
+    Using a tag name as an attribute will give you only the first tag by that name −
+   </p>
+   <pre class="result notranslate">
+&gt;&gt;&gt; soup.a
+&lt;a class="prog" href="https://www.tutorialspoint.com/java/java_overview.htm" id="link1"&gt;Java&lt;/a&gt;
+</pre>
+   <p>
+    To get all the tag’s attribute, you can use find_all() method −
+   </p>
+   <pre class="prettyprint notranslate">
+&gt;&gt;&gt; soup.find_all("a")
+[&lt;a class="prog" href="https://www.tutorialspoint.com/java/java_overview.htm" id="link1"&gt;Java&lt;/a&gt;, &lt;a class="prog" href="https://www.tutorialspoint.com/cprogramming/index.htm" id="link2"&gt;C&lt;/a&gt;, &lt;a class="prog" href="https://www.tutorialspoint.com/python/index.htm" id="link3"&gt;Python&lt;/a&gt;, &lt;a class="prog" href="https://www.tutorialspoint.com/javascript/javascript_overview.htm" id="link4"&gt;JavaScript&lt;/a&gt;, &lt;a class="prog" href="https://www.tutorialspoint.com/ruby/index.htm" id="link5"&gt;C&lt;/a&gt;]&gt;&gt;&gt; soup.find_all("a")
+[&lt;a class="prog" href="https://www.tutorialspoint.com/java/java_overview.htm" id="link1"&gt;Java&lt;/a&gt;, &lt;a class="prog" href="https://www.tutorialspoint.com/cprogramming/index.htm" id="link2"&gt;C&lt;/a&gt;, &lt;a class="prog" href="https://www.tutorialspoint.com/python/index.htm" id="link3"&gt;Python&lt;/a&gt;, &lt;a class="prog" href="https://www.tutorialspoint.com/javascript/javascript_overview.htm" id="link4"&gt;JavaScript&lt;/a&gt;, &lt;a class="prog" href="https://www.tutorialspoint.com/ruby/index.htm" id="link5"&gt;C&lt;/a&gt;]
+</pre>
+   <h2>
+    .contents and .children
+   </h2>
+   <p>
+    We can search tag’s children in a list by its .contents −
+   </p>
+   <pre class="prettyprint notranslate">
+&gt;&gt;&gt; head_tag = soup.head
+&gt;&gt;&gt; head_tag
+&lt;head&gt;&lt;title&gt;Tutorials Point&lt;/title&gt;&lt;/head&gt;
+&gt;&gt;&gt; Htag = soup.head
+&gt;&gt;&gt; Htag
+&lt;head&gt;&lt;title&gt;Tutorials Point&lt;/title&gt;&lt;/head&gt;
+&gt;&gt;&gt;
+&gt;&gt;&gt; Htag.contents
+[&lt;title&gt;Tutorials Point&lt;/title&gt;
+&gt;&gt;&gt;
+&gt;&gt;&gt; Ttag = head_tag.contents[0]
+&gt;&gt;&gt; Ttag
+&lt;title&gt;Tutorials Point&lt;/title&gt;
+&gt;&gt;&gt; Ttag.contents
+['Tutorials Point']
+</pre>
+   <p>
+    The BeautifulSoup object itself has children. In this case, the &lt;html&gt; tag is the child of the BeautifulSoup object −
+   </p>
+   <pre class="prettyprint notranslate">
+&gt;&gt;&gt; len(soup.contents)
+2
+&gt;&gt;&gt; soup.contents[1].name
+'html'
+</pre>
+   <p>
+    A string does not have .contents, because it can’t contain anything −
+   </p>
+   <pre class="prettyprint notranslate">
+&gt;&gt;&gt; text = Ttag.contents[0]
+&gt;&gt;&gt; text.contents
+self.__class__.__name__, attr))
+AttributeError: 'NavigableString' object has no attribute 'contents'
+</pre>
+   <p>
+    Instead of getting them as a list, use .children generator to access tag’s children −
+   </p>
+   <pre class="result notranslate">
+&gt;&gt;&gt; for child in Ttag.children:
+print(child)
+Tutorials Point
+</pre>
+   <h2>
+    .descendants
+   </h2>
+   <p>
+    The .descendants attribute allows you to iterate over all of a tag’s children, recursively −
+   </p>
+   <p>
+    its direct children and the children of its direct children and so on −
+   </p>
+   <pre class="result notranslate">
+&gt;&gt;&gt; for child in Htag.descendants:
+print(child)
+&lt;title&gt;Tutorials Point&lt;/title&gt;
+Tutorials Point
+</pre>
+   <p>
+    The &lt;head&gt; tag has only one child, but it has two descendants: the &lt;title&gt; tag and the &lt;title&gt; tag’s child. The beautifulsoup object has only one direct child (the &lt;html&gt; tag), but it has a whole lot of descendants −
+   </p>
+   <pre class="result notranslate">
+&gt;&gt;&gt; len(list(soup.children))
+2
+&gt;&gt;&gt; len(list(soup.descendants))
+33
+</pre>
+   <h2>
+    .string
+   </h2>
+   <p>
+    If the tag has only one child, and that child is a NavigableString, the child is made available as .string −
+   </p>
+   <pre class="result notranslate">
+&gt;&gt;&gt; Ttag.string
+'Tutorials Point'
+</pre>
+   <p>
+    If a tag’s only child is another tag, and that tag has a .string, then the parent tag is considered to have the same .string as its child −
+   </p>
+   <pre class="prettyprint notranslate">
+&gt;&gt;&gt; Htag.contents
+[&lt;title&gt;Tutorials Point&lt;/title&gt;]
+&gt;&gt;&gt;
+&gt;&gt;&gt; Htag.string
+'Tutorials Point'
+</pre>
+   <p>
+    However, if a tag contains more than one thing, then it’s not clear what .string should refer to, so .string is defined to None −
+   </p>
+   <pre class="result notranslate">
+&gt;&gt;&gt; print(soup.html.string)
+None
+</pre>
+   <h2>
+    .strings and stripped_strings
+   </h2>
+   <p>
+    If there’s more than one thing inside a tag, you can still look at just the strings. Use the .strings generator −
+   </p>
+   <pre class="prettyprint notranslate">
+&gt;&gt;&gt; for string in soup.strings:
+print(repr(string))
+'\n'
+'Tutorials Point'
+'\n'
+'\n'
+"The Biggest Online Tutorials Library, It's all Free"
+'\n'
+'Top 5 most used Programming Languages are: \n'
+'Java'
+',\n'
+'C'
+',\n'
+'Python'
+',\n'
+'JavaScript'
+' and\n'
+'C'
+';\n \nas per online survey.'
+'\n'
+'Programming Languages'
+'\n'
+</pre>
+   <p>
+    To remove extra whitespace, use .stripped_strings generator −
+   </p>
+   <pre class="prettyprint notranslate">
+&gt;&gt;&gt; for string in soup.stripped_strings:
+print(repr(string))
+'Tutorials Point'
+"The Biggest Online Tutorials Library, It's all Free"
+'Top 5 most used Programming Languages are:'
+'Java'
+','
+'C'
+','
+'Python'
+','
+'JavaScript'
+'and'
+'C'
+';\n \nas per online survey.'
+'Programming Languages'
+</pre>
+   <h2>
+    Going up
+   </h2>
+   <p>
+    In a “family tree” analogy, every tag and every string has a parent: the tag that contain it:
+   </p>
+   <h3>
+    .parent
+   </h3>
+   <p>
+    To access the element’s parent element, use .parent attribute.
+   </p>
+   <pre class="prettyprint notranslate">
+&gt;&gt;&gt; Ttag = soup.title
+&gt;&gt;&gt; Ttag
+&lt;title&gt;Tutorials Point&lt;/title&gt;
+&gt;&gt;&gt; Ttag.parent
+&lt;head&gt;title&gt;Tutorials Point&lt;/title&gt;&lt;/head&gt;
+</pre>
+   <p>
+    In our html_doc, the title string itself has a parent: the &lt;title&gt; tag that contain it−
+   </p>
+   <pre class="result notranslate">
+&gt;&gt;&gt; Ttag.string.parent
+&lt;title&gt;Tutorials Point&lt;/title&gt;
+</pre>
+   <p>
+    The parent of a top-level tag like &lt;html&gt; is the Beautifulsoup object itself −
+   </p>
+   <pre class="result notranslate">
+&gt;&gt;&gt; htmltag = soup.html
+&gt;&gt;&gt; type(htmltag.parent)
+&lt;class 'bs4.BeautifulSoup'&gt;
+</pre>
+   <p>
+    The .parent of a Beautifulsoup object is defined as None −
+   </p>
+   <pre class="result notranslate">
+&gt;&gt;&gt; print(soup.parent)
+None
+</pre>
+   <h3>
+    .parents
+   </h3>
+   <p>
+    To iterate over all the parents elements, use .parents attribute.
+   </p>
+   <pre class="prettyprint notranslate">
+&gt;&gt;&gt; link = soup.a
+&gt;&gt;&gt; link
+&lt;a class="prog" href="https://www.tutorialspoint.com/java/java_overview.htm" id="link1"&gt;Java&lt;/a&gt;
+&gt;&gt;&gt;
+&gt;&gt;&gt; for parent in link.parents:
+if parent is None:
+print(parent)
+else:
+print(parent.name)
+p
+body
+html
+[document]
+</pre>
+   <h2>
+    Going sideways
+   </h2>
+   <p>
+    Below is one simple document −
+   </p>
+   <pre class="prettyprint notranslate">
+&gt;&gt;&gt; sibling_soup = BeautifulSoup("&lt;a&gt;&lt;b&gt;TutorialsPoint&lt;/b&gt;&lt;c&gt;&lt;strong&gt;The Biggest Online Tutorials Library, It's all Free&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt;")
+&gt;&gt;&gt; print(sibling_soup.prettify())
+&lt;html&gt;
+&lt;body&gt;
+   &lt;a&gt;
+      &lt;b&gt;
+         TutorialsPoint
+      &lt;/b&gt;
+      &lt;c&gt;
+         &lt;strong&gt;
+            The Biggest Online Tutorials Library, It's all Free
+         &lt;/strong&gt;
+      &lt;/c&gt;
+   &lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+   <p>
+    In the above doc, &lt;b&gt; and &lt;c&gt; tag is at the same level and they are both children of the same tag. Both &lt;b&gt; and &lt;c&gt; tag are siblings.
+   </p>
+   <h3>
+    .next_sibling and .previous_sibling
+   </h3>
+   <p>
+    Use .next_sibling and .previous_sibling to navigate between page elements that are on the same level of the parse tree:
+   </p>
+   <pre class="prettyprint notranslate">
+&gt;&gt;&gt; sibling_soup.b.next_sibling
+&lt;c&gt;&lt;strong&gt;The Biggest Online Tutorials Library, It's all Free&lt;/strong&gt;&lt;/c&gt;
+&gt;&gt;&gt;
+&gt;&gt;&gt; sibling_soup.c.previous_sibling
+&lt;b&gt;TutorialsPoint&lt;/b&gt;
+</pre>
+   <p>
+    The &lt;b&gt; tag has a .next_sibling but no .previous_sibling, as there is nothing before the &lt;b&gt; tag on the same level of the tree, same case is with &lt;c&gt; tag.
+   </p>
+   <pre class="result notranslate">
+&gt;&gt;&gt; print(sibling_soup.b.previous_sibling)
+None
+&gt;&gt;&gt; print(sibling_soup.c.next_sibling)
+None
+</pre>
+   <p>
+    The two strings are not siblings, as they don’t have the same parent.
+   </p>
+   <pre class="prettyprint notranslate">
+&gt;&gt;&gt; sibling_soup.b.string
+'TutorialsPoint'
+&gt;&gt;&gt;
+&gt;&gt;&gt; print(sibling_soup.b.string.next_sibling)
+None
+</pre>
+   <h3>
+    .next_siblings and .previous_siblings
+   </h3>
+   <p>
+    To iterate over a tag’s siblings use .next_siblings and .previous_siblings.
+   </p>
+   <pre class="prettyprint notranslate">
+&gt;&gt;&gt; for sibling in soup.a.next_siblings:
+print(repr(sibling))
+',\n'
+&lt;a class="prog" href="https://www.tutorialspoint.com/cprogramming/index.htm" id="link2"&gt;C&lt;/a&gt;
+',\n'
+&gt;a class="prog" href="https://www.tutorialspoint.com/python/index.htm" id="link3"&gt;Python&lt;/a&gt;
+',\n'
+&lt;a class="prog" href="https://www.tutorialspoint.com/javascript/javascript_overview.htm" id="link4"&gt;JavaScript&lt;/a&gt;
+' and\n'
+&lt;a class="prog" href="https://www.tutorialspoint.com/ruby/index.htm"
+id="link5"&gt;C&lt;/a&gt;
+';\n \nas per online survey.'
+&gt;&gt;&gt; for sibling in soup.find(id="link3").previous_siblings:
+print(repr(sibling))
+',\n'
+&lt;a class="prog" href="https://www.tutorialspoint.com/cprogramming/index.htm" id="link2"&gt;C&lt;/a&gt;
+',\n'
+&lt;a class="prog" href="https://www.tutorialspoint.com/java/java_overview.htm" id="link1"&gt;Java&lt;/a&gt;
+'Top 5 most used Programming Languages are: \n'
+</pre>
+   <h2>
+    Going back and forth
+   </h2>
+   <p>
+    Now let us get back to first two lines in our previous “html_doc” example −
+   </p>
+   <pre class="prettyprint notranslate">
+&amp;thtml&gt;&lt;head&gt;&lt;title&gt;Tutorials Point&lt;/title&gt;&lt;/head&gt;
+&lt;body&gt;
+&lt;h4 class="tagLine"&gt;&lt;b&gt;The Biggest Online Tutorials Library, It's all Free&lt;/b&gt;&lt;/h4&gt;
+</pre>
+   <p>
+    An HTML parser takes above string of characters and turns it into a series of events like “open an &lt;html&gt; tag”, “open an &lt;head&gt; tag”, “open the &lt;title&gt; tag”, “add a string”, “close the &lt;/title&gt; tag”, “close the &lt;/head&gt; tag”, “open a &lt;h4&gt; tag” and so on. BeautifulSoup offers different methods to reconstructs the initial parse of the document.
+   </p>
+   <h3>
+    .next_element and .previous_element
+   </h3>
+   <p>
+    The .next_element attribute of a tag or string points to whatever was parsed immediately afterwards. Sometimes it looks similar to .next_sibling, however it is not same entirely.
+Below is the final &lt;a&gt; tag in our “html_doc” example document.
+   </p>
+   <pre class="prettyprint notranslate">
+&gt;&gt;&gt; last_a_tag = soup.find("a", id="link5")
+&gt;&gt;&gt; last_a_tag
+&lt;a class="prog" href="https://www.tutorialspoint.com/ruby/index.htm" id="link5"&gt;C&lt;/a&gt;
+&gt;&gt;&gt; last_a_tag.next_sibling
+';\n \nas per online survey.'
+</pre>
+   <p>
+    However the .next_element of that &lt;a&gt; tag, the thing that was parsed immediately after the &lt;a&gt; tag, is not the rest of that sentence: it is the word “C”:
+   </p>
+   <pre class="result notranslate">
+&gt;&gt;&gt; last_a_tag.next_element
+'C'
+</pre>
+   <p>
+    Above behavior is because in the original markup, the letter “C” appeared before that semicolon. The parser encountered an &lt;a&gt; tag, then the letter “C”, then the closing &lt;/a&gt; tag, then the semicolon and rest of the sentence. The semicolon is on the same level as the &lt;a&gt; tag, but the letter “C” was encountered first.
+   </p>
+   <p>
+    The .previous_element attribute is the exact opposite of .next_element. It points to whatever element was parsed immediately before this one.
+   </p>
+   <pre class="prettyprint notranslate">
+&gt;&gt;&gt; last_a_tag.previous_element
+' and\n'
+&gt;&gt;&gt;
+&gt;&gt;&gt; last_a_tag.previous_element.next_element
+&lt;a class="prog" href="https://www.tutorialspoint.com/ruby/index.htm" id="link5"&gt;C&lt;/a&gt;
+</pre>
+   <h3>
+    .next_elements and .previous_elements
+   </h3>
+   <p>
+    We use these iterators to move forward and backward to an element.
+   </p>
+   <pre class="result notranslate">
+&gt;&gt;&gt; for element in last_a_tag.next_e lements:
+print(repr(element))
+'C'
+';\n \nas per online survey.'
+'\n'
+&lt;p class="prog"&gt;Programming Languages&lt;/p&gt;
+'Programming Languages'
+'\n'
+</pre>
+   <div class="d-flex justify-content-between border-bottom border-top py-2" id="bottom_navigation">
+    <a class="pre-btn" href="/beautiful_soup/beautiful_soup_kinds_of_objects.htm">
+     <i class="fal fa-chevron-circle-left">
+     </i>
+     Previous Page
+    </a>
+    <a class="pre-btn d-none d-sm-block" href="#" id="print-page">
+     <i class="fal fa-print">
+     </i>
+     Print Page
+    </a>
+    <a class="nxt-btn" href="/beautiful_soup/beautiful_soup_searching_the_tree.htm">
+     Next Page
+     <i class="fal fa-chevron-circle-right">
+     </i>
+    </a>
+   </div>
+   <div class="google-bottom-ads" id="google-bottom-ads">
+    <div>
+     Advertisements
+    </div>
+    <div>
+     <div id="adp_bottom_ads">
+     </div>
+     <script>
+      var adPos = document.getElementById('adp_bottom_ads');
+						var mobile_ad_id = "6d621d7e-9531-4f26-810f-68af67dc6366";
+						var desktop_ad_id = "4951d1d6-24d4-4a31-afb7-2c22c489eae1";
+						var adpushup = adpushup || {};
+						adpushup.que = adpushup.que || [];
+						adpushup.que.push(function() {
+							var ad_id = window.innerWidth <= 768 ? mobile_ad_id : desktop_ad_id;
+							adPos.innerHTML = '<div id="' + ad_id + '" class="_ap_apex_ad"></div>';
+							adpushup.triggerAd(ad_id);
+						});
+     </script>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
