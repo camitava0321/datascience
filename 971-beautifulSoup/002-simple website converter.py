@@ -21,28 +21,42 @@ req = requests.get(url)
 soup = BeautifulSoup(req.text, "html.parser")
 
 t = soup.find("div", {"id": "mainContent"})
+
+#Wrap with body and html tags
 t=t.wrap(soup.new_tag("body"))
-t.insert(0,soup.new_tag("title","AMC Simple Website Converter"))
-print(t)
+t=t.wrap(soup.new_tag("html"))
+
+#Add new tag title
+tag = soup.new_tag("title")
+tag.string = "AMC Simple Website Converter"
+body = t.find("body")
+body.insert_before(tag)
+
+#Remove Elements
+remove_tag = t.find(id="google-top-ads")
+remove_tag.decompose()
+
 writeToFile(t.prettify())
 
-#print(soup.title)
-#print(soup.head)
-#print (soup.body)
-#print (soup.body.h2)
-#print (soup.find_all("h2"))
-#print (len(soup.contents))
-#print(len(list(soup.children)))
-#print(len(list(soup.descendents)))
 
 #%% - One common task is to extract all the URLs within a webpage. 
-#For that we just need to add the below line of code −
+#For that we just need to add the below line 
+
+import requests
+from os.path  import basename
+
+links=t.find_all('a')
+for link in links:
+    if "http" in link.get('src'):
+        lnk = link.get('src')
+        with open(basename(lnk), "wb") as f:
+            f.write(requests.get(lnk).content)
+            
 for link in soup.find_all('a'):
     print (link.get('href'))
 
 for link in soup.find_all('img'):
     print (link.get('src'))
-    
     
 #%% - 
 for string in soup.strings:

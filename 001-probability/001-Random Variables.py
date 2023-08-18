@@ -6,7 +6,7 @@
 d={(i,j):i+j for i in range(1,7) for j in range(1,7)}
 print (d)
 
-#next step - collect all of the (i,j) pairs that sum to each of the possible values from 2 to 12
+#next step - collect all of the (i,j) pairs that sum to each of the possible value from 2 to 12
 
 #we use defaultdict object from the built-in collections module 
 from collections import defaultdict
@@ -20,7 +20,6 @@ for i,j in d.items():
 for key in dinv.keys() :
     print (key, " : ", dinv[key])
 #e.g, dinv[7] contains the list of pairs that sum to seven 
-#[(1, 6), (2, 5), (5, 2), (6, 1), (4, 3), (3, 4)]
 
 #next step - compute the probability measured for each of these items.
 #i.e., - we have to compute the sum of the products of the individual item probabilities in dinv. 
