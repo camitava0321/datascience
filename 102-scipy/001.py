@@ -11,22 +11,22 @@ import matplotlib.pyplot as plt
 """
 SciPy Organization
 SciPy is organized into subpackages covering different scientific computing domains.
-Subpackage	     Description
-cluster	     Clustering algorithms
-constants	     Physical and mathematical constants
-fftpack	     Fast Fourier Transform routines
-integrate	     Integration and ordinary differential equation solvers
-interpolate	 Interpolation and smoothing splines
-io	           Input and Output
+Subpackage	    Description
+cluster	        Clustering algorithms
+constants	    Physical and mathematical constants
+fftpack	        Fast Fourier Transform routines
+integrate	    Integration and ordinary differential equation solvers
+interpolate	    Interpolation and smoothing splines
+io	            Input and Output
 linalg	        Linear algebra
-ndimage	    N-dimensional image processing
-odr	           Orthogonal distance regression
+ndimage	        N-dimensional image processing
+odr	            Orthogonal distance regression
 optimize	    Optimization and root-finding routines
-signal	       Signal processing
-sparse	       Sparse matrices and associated routines
-spatial	    Spatial data structures and algorithms
-special	   Special functions
-stats	       Statistical distributions and functions
+signal	        Signal processing
+sparse	        Sparse matrices and associated routines
+spatial	        Spatial data structures and algorithms
+special	        Special functions
+stats	        ßStatistical distributions and functions
 
 Scipy sub-packages need to be imported separately, for example:
 from scipy import linalg, optimize
