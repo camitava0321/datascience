@@ -17,7 +17,7 @@ from nltk.tokenize import PunktSentenceTokenizer
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
-#Let us first get the sentences
+#%% - Let us first get the sentences
 EXAMPLE_TEXT = "Hello Mr. Smith, how are you doing today? The weather is great, and Python is awesome. The sky is pinkish-blue. You shouldn't eat cardboard."
 
 #Filtering out STOP WORDS.
@@ -37,6 +37,8 @@ for w in word_tokens:
 """
 print(word_tokens)
 print(filtered_sentence)
+#%%
+
 tagged = nltk.pos_tag(filtered_sentence)
     
 #In order to chunk, we combine the part of speech tags with regular expressions.
@@ -50,6 +52,7 @@ chunkParser = nltk.RegexpParser(chunkGram)
 chunked = chunkParser.parse(tagged)
 #See the chunking visually
 chunked.draw()
+#%%
 
 #Access chunking data
 #"chunked" variable is an NLTK tree. 
@@ -58,6 +61,7 @@ chunked.draw()
 for subtree in chunked.subtrees():
                 print(subtree)
 
+#%%
 #Filter-out the non-chunks
 for subtree in chunked.subtrees(filter=lambda t: t.label() == 'Chunk'):
     print(subtree)                

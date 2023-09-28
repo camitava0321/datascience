@@ -17,7 +17,7 @@ from barcode.writer import ImageWriter
 isbn13 = ISBN13('9788995317471', writer=ImageWriter())
 name = isbn13.save('book1')
 
-ean13 = EAN13('auth:name:en:325:2016', writer=ImageWriter())
+ean13 = EAN13('00100100463252016', writer=ImageWriter())
 name = ean13.save('abc')
 print (name)
 

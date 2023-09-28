@@ -35,10 +35,7 @@ for w in word_tokens:
 """
 print(word_tokens)
 print(filtered_sentence)
-
-
-
-
+#%%
 
 #Read a file and then extract sentences with a training model
 train_text=state_union.raw("2005-GWBush.txt")

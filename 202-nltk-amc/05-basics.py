@@ -15,6 +15,7 @@ from nltk.tokenize import PunktSentenceTokenizer
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
+#%%
 #Let us first get the sentences
 EXAMPLE_TEXT = "Hello Mr. Smith, how are you doing today? The weather is great, and Python is awesome. The sky is pinkish-blue. You shouldn't eat cardboard."
 
@@ -36,11 +37,7 @@ for w in word_tokens:
 print(word_tokens)
 print(filtered_sentence)
 print(nltk.pos_tag(filtered_sentence))
-    
-
-
-
-
+#%%
 
 #Read a file and then extract sentences with a training model
 train_text=state_union.raw("2005-GWBush.txt")

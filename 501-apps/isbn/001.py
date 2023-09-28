@@ -7,7 +7,7 @@ ISBN
 import pandas as pd
 import numpy as np
 staticNumber="9789387857"
-lastNumber=30
+lastNumber=31
 isbn13 = staticNumber+str(lastNumber+1)
 print ("ISBN13  without check digit: "+isbn13)
 

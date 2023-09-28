@@ -3,15 +3,14 @@
 import urllib2
 import re
 import nltk
-import 
-import 
+
 #Some example text content - from 
 #Gutenberg - Sense and Sensibility by Jane Austen : http://www.gutenberg.org/files/161/161-h/161-h.htm
 #urllib2 is use to download the html content of the web link
 response = urllib2.urlopen('http://www.gutenberg.org/files/161/161-h/161-h.htm')
 #Read the entire content of a file using read() method
 html = response.read()
-print len(html)
+print (len(html))
 
 #%% - exploratory data analysis (EDA)
 #What are the topics? How frequent they are? 
