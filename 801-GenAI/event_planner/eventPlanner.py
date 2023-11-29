@@ -1,5 +1,7 @@
 import logging
 import os
+import getpass
+from pandas import read_csv
 
 from dotenv import load_dotenv
 
@@ -22,33 +24,29 @@ GENAI_API="https://bam-api.res.ibm.com/v1/"
 api_key = GENAI_KEY
 api_endpoint = GENAI_API
 
+
 creds = Credentials(api_key=api_key, api_endpoint=api_endpoint)  # credentials object to access GENAI
 #%%
-#Inventory Source
-space_offerings = [
-"Marriott space A, people: 20, available: y", 
-"Marriott space A is available to any customer", 
-"Marriott space B, people: 20-40, available: n", 
-"Marriott space C for more than 50 people", 
-"Marriot space D for 15 people is not available", 
-"Marriott space E is for upto 20 people and is for premium customer only", 
-"Marriott space P,Q and R is each for upto 10 people and is for non-premium customer only", 
-"Marriot space F for 15 people is available for premium customer only"
-    ]
+fileSpaceOfferings = 'fileSpaceOfferings.csv'
+fileDealCombinations = 'fileDealCombinations.csv'
+fileCustomerProfiles = 'fileCustomerProfiles.csv'
 
-deal_combinations = [
-"Marriott space A comes with private swimming pool", 
-"Marriott space B comes with a lavish banquet service", 
-"Marriott space P,Q,R comes with no special services", 
-"Marriott space C with airport pickup/drop service", 
-"Marriot D and F provides every service possible"
-]
+space_offerings_data = read_csv(fileSpaceOfferings)
+deal_combinations_data = read_csv(fileDealCombinations)
+customer_profiles_data = read_csv(fileCustomerProfiles)
+print (space_offerings_data)
+#%%
+
+#Inventory Source
+space_offerings = space_offerings_data.to_numpy();
+deal_combinations = deal_combinations_data.to_numpy();
 
 customer_profiles = [
 "ClientA is premium customers", 
 "ClientB is general customers", 
 "ClientC is premium customer"
 ]
+customer_profiles = customer_profiles_data.to_numpy()
 
 prompt = "Agent: Okay, I am awaiting your instruction   \
            User: Watson, here are your instructions:   \
@@ -86,14 +84,17 @@ Event organiser will even be able to use our special services towards specially 
 participants. But for a very small event, say less than 4 people, our services might become too costly for a customer. \
 There will be a dedicated Event Manager from Marriott who will be responsible for planning, organizing, and executing various events, conferences, and functions. Event Managers ensure seamless coordination between clients, hotel staff, and vendors, ensuring successful and memorable events. Their expertise in logistics, budget management, and attention to detail contributes to the overall success and reputation of our hotel.  \
 Data  "
-Customer_profiles = "Customer Profiles: Marriott space B is for premium customer"
+Customer_profiles = "Customer Profiles: "
 
 so = "Space offerings: "
 for i in range(0, len(space_offerings)):
-    so = so + space_offerings[i]+" "
+    so = so + space_offerings[i][0]+" "
 dc = "Deal Combinations: "
 for i in range(0, len(deal_combinations)):
-    dc = dc + deal_combinations[i]+" "
+    dc = dc + deal_combinations[i][0]+" "
+for i in range(0, len(customer_profiles)):
+    print(customer_profiles[i][0])
+    Customer_profiles = Customer_profiles + customer_profiles[i][0]+" "
     
 document = document + so + " " + dc + Customer_profiles + "} "  
 endText = "Agent: I am ready to answer your questions from the document. I will not repeat answers I have given."

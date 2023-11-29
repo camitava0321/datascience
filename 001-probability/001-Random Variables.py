@@ -1,10 +1,13 @@
 # -*- coding: utf-8 -*-
 #author : Amitava Chakraborty
+#Determining the Probability Mass Function (PMF)
 
-#Create a Python dictionary
+#Problem 1
+#Create a Python dictionary - this represents the data for which the PMF is needed
 #key - a collection of i and j - value i+j
 d={(i,j):i+j for i in range(1,7) for j in range(1,7)}
 print (d)
+print (len(d.items()))
 
 #next step - collect all of the (i,j) pairs that sum to each of the possible value from 2 to 12
 
@@ -14,6 +17,8 @@ dinv = defaultdict(list)
 #creates dictionaries with default values when it encounters a new key. 
 #Otherwise, we would have had to create default values manually for a regular dictionary.
 for i,j in d.items():
+    #d.items() - each item looks like this (1, 1): 2, key (1,1) and value 2
+    #we will use the value (j) as key in dinv and store all the keys (i) that has this value
     dinv[j].append(i)
 
 #How do dinv look
@@ -27,14 +32,16 @@ for key in dinv.keys() :
 #So the probability of every term in the sum equals 1/36. 
 #Thus we have to count the number of items in the corresponding list 
 #for each key in dinv and divide by 36. 
-#For example, dinv[11] contains [(5, 6), (6, 5)] - 11 is the probability of this set 
+#For example, dinv[11] contains [(5, 6), (6, 5)] - P(11) is the probability of this set 
 #since, 5+6=6+5=11
 #Hence P(11) = P({(5, 6)})+P({(6, 5)}) = 1/36+1/36 = 2/36. 
 #Repeating this procedure for all the elements, we derive the probability mass function
 X={i:len(j)/36.0 for i,j in dinv.items() }
 print (X)
 
-#%% - With the same framework, we ask
+#%% - 
+#Problem 2
+#With the same framework, we ask
 #what is the probability that half the product of 3 dice will exceed the their sum?
 
 #First, let’s create the first mapping,
@@ -43,26 +50,25 @@ for j in range(1,7)
 for k in range(1,7)}
 
 print (d)
+print ("No. of elements in d: ", len(d))
 
 #keys of this dictionary d : the triples and 
 #values : logical values of whether or not half the product of three dice exceeds their sum 
 #Now, we do the inverse mapping to collect the corresponding lists,
 dinv = defaultdict(list)
-for i,j in d.iteritems(): 
+for i,j in d.items(): 
+    #d.items() - each item looks like this (4, 1, 6): True, key (4, 1, 6) and value True
+    #we will use the value (j) as key in dinv and store all the keys (i) that has this value
     dinv[j].append(i)
 
-#dinv contains only two keys, True and False - and all total 63 elements
-#The dice readings are independent - so probability of any triple is 1/63. 
+#dinv contains only two keys, True and False - and all total N elements
+#The dice readings are independent - so probability of any triple is 1/N. 
 #Finally, we collect this for each outcome as in the following,
-X={i:len(j)/6.0**3 for i,j in dinv.iteritems() }
+X={i:len(j)/6.0**3 for i,j in dinv.items() }
 print (X)
 
 #Thus, the probability of half the product of three dice exceeding their sum is
 #136/(6.0**3) = 0.63. 
-#The set that is induced by the random variable has only two elements in it, 
-#True and False, with 
-#P(True) = 136/216 and 
-#P(False) = 1 − 136/216.
 
 #%% - Using Pandas instead of Python dictionaries. 
 #We construct a DataFrame object with an index of tuples consisting of all pairs of possible dice outcomes.
@@ -92,5 +98,6 @@ d.head(5)
 
 #With all that established, we can compute the density of all the dice outcomes 
 #by using groupby as in the following,
-d.groupby('sm')['p'].sum()
-print (sm)
+sm = d.groupby('sm')['p'].sum()
+sm.head(10)
+sm
