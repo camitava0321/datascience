@@ -135,11 +135,11 @@ def calculate_metrics(y_test, predictions):
     #Mean Squared Error (MSE): MSE measures the average squared difference between actual and predicted values.
     #Lower MSE values are better, indicating smaller errors on average.
     #However, the interpretation of "small" or "large" depends on the scale of our target variable.
-    print(f"Mean Squared Error (ideally should be 0): {mse:.4f}")
+    #print(f"Mean Squared Error (ideally should be 0): {mse:.4f}")
     
     #Mean Absolute Error (MAE): MAE measures the average absolute difference between actual and predicted values.
     #Lower MAE values are better, and like MSE, the interpretation depends on the scale of the target variable.
-    print(f"Mean Absolute Error (closer to 0): {mae:.4f}")
+    #print(f"Mean Absolute Error (closer to 0): {mae:.4f}")
 
     #R-squared (R2): R-squared measures the proportion of the variance in the dependent variable that is 
     #predictable from the independent variables.

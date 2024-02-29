@@ -42,7 +42,7 @@ print(f"Time taken to assign rooms: {elapsed_time:.6f} seconds")
 
 #%%
 data = generateReservationData(200)
-
+print(data.head(5))
 #%%
 modelType=110
 # Call the predict_score function
@@ -80,6 +80,7 @@ result_df2.to_csv('output/output2.csv')
 
 #%%
 rooms = generateRoomData(50)
+print(rooms.head(5))
 #%%
 reservations = reservations.sort_values(by='cost')
 rooms = rooms.sort_values(by='costToAssign')
