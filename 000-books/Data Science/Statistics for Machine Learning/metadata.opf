@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">31</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">c9604b76-6e57-418e-bc79-0e3cdb0d7fb7</dc:identifier>
+        <dc:title>Statistics for Machine Learning</dc:title>
+        <dc:creator opf:file-as="Dangeti, Pratap" opf:role="aut">Pratap Dangeti</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (2.35.0) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>2017-07-21T14:16:34+00:00</dc:date>
+        <dc:description>This book will teach you all it takes to perform complex statistical computations required for Machine Learning. You will gain information on statistics behind supervised learning, unsupervised learning, reinforcement learning, and more. Understand the real-world examples that discuss the statistical side of Machine Learning and familiarize yourself with it.</dc:description>
+        <dc:publisher>Packt</dc:publisher>
+        <dc:language>eng</dc:language>
+        <dc:subject>COM077000 - COMPUTERS / Mathematical and Statistical Software</dc:subject>
+        <dc:subject>COM062000 - COMPUTERS / Data Modeling and Design</dc:subject>
+        <dc:subject>COM018000 - COMPUTERS / Data Processing</dc:subject>
+        <meta content="{&quot;Pratap Dangeti&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="2017-09-05T12:52:51.565000+00:00" name="calibre:timestamp"/>
+        <meta content="Statistics for Machine Learning" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Cover" type="cover"/>
+    </guide>
+</package>
