@@ -1,0 +1,114 @@
+Assumptions: 
+A. Shared-with
+1. Reservations received from far that have the linkage will be treated as a Shared-with reservation - ARA will receive a link from FAR on the reservation that links the reservations together - Shared-with reservation link ids will be unique.
+2. There could be more than two reservations linked together for Shared-with reservations. (limit ?)
+3. Shared-with reservations may not have the same stay duration.
+4. Shared-with reservations will have the same inventory type.
+
+B. Preferences
+1. A Shared-with reservation can also be part of a back-to-back reservation. In this case rules for the Back-to-back reservation will take precedence and then the Shared-with reservation should be assigned to the same room.
+2. A Shared-with reservation can also be part of a travel-with reservation (there will be two link IDs). In this case the travel-with reservation should take precedence and then the Shared-with reservation should be assigned to the same room.
+3. A Shared-with reservation could also be part of a travel-with and a back-to-back reservation (there will be three link IDs). In this case the back-to-back takes precedence then the travel-with and then the Shared-with reservation.
+
+C. B2B
+1. Reservations received from far that have the linkage will be treated as a back-to-back reservation - ARA will receive a link from FAR on the reservation that links the reservations together - back-to-back reservation link ids will be unique 
+2. There could be more than two reservations linked together
+3. back-to-back reservations cannot have a gap in the stay
+
+D. Upgrades
+1. ARA should be able to upgrade Shared-with reservations  
+2. business is aware that giving an upgrade to a back-to-back reservation potentially will give more days for an upgrade than originally planned 
+1. CO will provide recommendations is such a way that to upgrade all or upgrade non of the linked reservations
+2. for back-to-back reservation with different inventory types - CO will treat the reservations as separate and not back-to-back
+
+E. Shuffling (i.e., ARA will process a reservation and assign a room)
+1. all reservations can be shuffled that do not have a do not move flag on them and are not checked in.
+2. reservations that were previously assigned a Capacity Optimization (CO) upgrade and where the guest has not checked into the room will be treated as if they have not received an upgrade and be re processed.
+3. reservations that were cancelled will not be sent to ARA for processing and the availability of the room that was previously assigned will be included as part of the room availability from XPMS as available.
+ 
+
+Special Rules
+A. Back-to-back
+1. back-to-back - reservations of the same inventory type with consecutive day stays calculate LOS by sum of days 
+2. back-to-back - reservations with multiple inventory types, the LOS is grouped by inventory type and then calculate LOS by sum of days within each inventory type 
+3. Back-to-back reservations will use the first reservations rank score for ordering and process all related reservations at the same time
+1. Reservations that are back-to-back for the same guest and same inventory type to be assigned with the same room number so that the guest is not moved to a different room  
+2. Reservations that are back-to-back to be considered for upgrades and given upgrades when aplicable so that guests with the highest ranking are still considered for upgrades
+3. MATCHING INENTORY TYPES - use the combined LOS of the related reservations to identify an available room based on inventory type 
+4. NOT MATCHING INENTORY TYPES - calculate the LOS for each leg of the reservations where the inventory type matches consecutively in stay dates
+5. resevation rank of the reservations are different - assign the same room number for all linked reservations by using the first reservations ranking, use the combined LOS
+6. use the guest preferences when applicable and assign the same room to all related reservations 
+7. different guest preferences - use the highest rank guest preferences to assign the room 
+8. a leg of a back-to-back reservation has already checked in and all legs have the same inventory type - the system will not move/shuffle the other legs of the back-to-back reservation  
+9. one reservation has been previously assigned and a do not move flag has been added but the other related reservation has not been assigned - assign the other reservation to the same room and assign a do not move (This scenario should not happen)   
+10. guest booked a room (non-location specific) and the guest preference is a high floor - attempt to honor the preference of the guest and assign high floor room
+11. guest booked a room (non-location specific) and the guest preference is a low floor - attempt to honor the preference of the guest and assign low floor room
+12. guest booked a high floor and the guest preference is a low floor - assign the lowest available room within the inventory type 
+13. guest booked a low floor and the guest preference is a high floor - assign the highest available room within the inventory type 
+14. guest booked a room (non-location specific), High floor, or a low floor inventory type and the guest preference is near elevator - attempt to honor the preference of the guest and assign a near elevator room
+
+Negative Case Section:
+15. system cannot find the relating/linked reservations and the date of arrival is today - assign a room to the reservation based on its LOS and inventory type and preferences 
+16. system cannot find the relating/linked reservations and arrival date is in the future - do not assign a room to the reservation  
+17. no room availability for the sum of length of stay - do not assign both/all linked reservations, error (Back-to-back no availability) on both reservations
+
+Operational reports:
+18. operational summary report shall display the related reservations as assigned 
+19. back-to-back reservation is in the future and the related reservations cannot be found - summary report shall display the reservation as not assigned with the following error message "back-to-back reservation user action required"
+
+
+B. Travel-with
+1. travel-with - compare reservations arrival dates and departure dates
+	if they match - use the sum of dates of highest rank reservation to calculate LOS 
+	if they do not match - identify earliest arrival date and latest departure date between the reservations to define LOS window
+2. travel-with - reservations will use the highest rank score and process at the same time
+if the stay dates differ, use the rank of the first arriving reservation and process together
+if the travel-with reservation is part of a back-to-back, process the reservation when processing the back-to back  
+1. reservations that have a travel-with linkage to be assigned with consecutive rooms so that the front desk agent does not need to reassign the room 
+2. a reservation has a travel-with linkage - ARA shall get all related reservations (limit?)
+3. one of the reservations has no availability - do not assign room to that reservation  only:error - travel-with reservations with no availability 
+4. conflicting preferences - ignore the preferences 
+5. matching preferences - attempt to adhere to the preferences 
+6. while selecting room to assign adhere to the room ranker logic
+7. for travel-with reservations ignore the threshold
+8. travel-with is also part of a back-to-back reservation and the associated travel-with stay range extends longer than the back-to-back stay range - assign the nearest room with correct inventory type and availability. 
+
+
+C. Shared-with
+1. Engine will handle the reservations with a Shared-with linkage in such a way that the reservations are assigned the same room number
+1. Shared-with - compare reservations arrival dates and departure dates
+	if they match - use the sum of dates of highest rank reservation to calculate LOS 
+	if they do not match - identify earliest arrival date and latest departure date between the reservations to define LOS window
+2. Shared-with - reservations will use the highest rank score and process at the same time
+if the stay dates differ, use the rank of the first arriving reservation and process together
+if the Shared-with reservation is part of a travel-with, process the reservation when processing the travel-with 
+if the Shared-with reservation is part of a Bac-to-back, process the reservation when processing the back-to-back
+
+1. Different ranking - assign same room number for all reservations by choosing the highest rank guest, use combined LOS 
+2. Different guest preferences - choose the highest ranked reservation - use this guest preference to assign the room 
+3. Shared-with is part of a back-to-back reservation and the Shared-with stay range extends longer than the back-to-back stay range - Then the system shall check the availability for the room and if available ARA will assign the Shared-with reservation to the room (if there is already a reservation assigned to the room and there is not a do not move the system shall shuffle the reservations)  
+4. Shared-with is part of a back-to-back reservation and the Shared-with stay range extends longer than the back-to-back stay range and there is already a reservation assigned to the room and there is NO DO_NOT_MOVE the system shall shuffle the reservations  
+5. Shared-with is part of a travel-with reservation - process the travel-with first then assign the same room to the Shared-with reservation
+6. Shared-with is part of a travel-with reservation but the Shared-with stay dates are different from the travel-with 
+ - assign the Shared-with reservation to the same room as the travel-with if availability exists 
+7. Shared-with reservation with a given inventory type and the threshold has been exceeded for that inventory type - ignore the threshold and assign the Shared-with reservations 
+8. inventory types have mismatch - do not process the reservations and display message on the operational report "Shared-with mismatch inventory types"
+9. Shared-with shall adhere to housekeeping sort order 
+
+
+
+D. Capacity Optimization Upgrades
+1. reservations will be chosen by ARA for upgrades and will consider Comp, back-to-back, travel-with, share-with and regular transient reservations. (NUAs are not in sope)
+
+
+E. Room Rank
+1. ARA tool to assign rooms to reservations while considering the best available room to be assigned so that the best guest gets the best room  
+2. Room Ranker hierarchy logic will compliment the default high floor to low floor assignment logic 
+3. Assumption : Front office management would be ranking the rooms on amenities/features, Rank numbers would range from good, better and best, 3 = best, 2 = better, 1 = good
+4. When applying the best to good rooms to reservation, this will follow the same logic ARA has implemented including housekeeping logic - Arrival date, length of stay, guest rank for reservations arriving greater than today and arrival date = current date, length of stay, arrival time, guest rank for reservations arriving today.
+5. for reservations arriving tomorrow or later highest ranked guest the best room then down from there
+6. for reservations arriving today best room is given to the earliest arrival then guest rank 
+7. guest arriving early housekeeping status trumps the room rank
+8. when selecting a room for the reservation look for the best (best, better, good) room with the highest(?) number available within the inventory type
+9. when selecting a room for the reservation and the guest has a preference of near elevator - look for the best (best, better, good) room with the highest(?) number available near the elevator within the inventory type
+10. when selecting a room for the reservation and the guest has a preference of low floor - look for the best (best, better, good) room with the lowest number available within the inventory type

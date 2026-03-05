@@ -39,7 +39,7 @@ for f in sorted_f:
     if "thumbs.db" in name.lower() :
         continue
     
-    print name,' --- ', pathString
+    print (name,' --- ', pathString)
     fileO.write(name+', '+pathString+"\n");
 
 fileO.close()

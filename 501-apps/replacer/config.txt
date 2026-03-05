@@ -1,0 +1,23 @@
+shared-with:TYPE-A
+travel-with:TYPE-B
+b2b:TYPE-C
+back-to-back:TYPE-C
+reservation:ENTITY_RS
+w:ara:RAR
+FAR:DOMAIN_RS
+inventory type:ATT_INVTYPE
+room:ENTITY_ROM
+w:CO:DOMAIN_RCM
+recommendation:ENTITY_RECOM
+do not move:ATT_DONOTMOVE
+business:BOSS
+guest:CUST
+XPMS:DOMAIN_P
+Capacity Optimization:RM
+high floor:ATT_HIGHFLR
+low floor:ATT_LOWFLR
+system:SYS_RAR
+length of stay:ATT_LOS
+assign:allocate
+arrival date:DT_ARR
+departure date:DT_DEP

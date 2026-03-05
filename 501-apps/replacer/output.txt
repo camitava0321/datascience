@@ -1,0 +1,114 @@
+Assumptions: 
+A. TYPE-A
+1. ENTITY_RSs received from DOMAIN_RS that have the linkage will be treated as a TYPE-A ENTITY_RS - RAR will receive a link from DOMAIN_RS on the ENTITY_RS that links the ENTITY_RSs together - TYPE-A ENTITY_RS link ids will be unique.
+2. There could be more than two ENTITY_RSs linked together for TYPE-A ENTITY_RSs. (limit ?)
+3. TYPE-A ENTITY_RSs may not have the same stay duration.
+4. TYPE-A ENTITY_RSs will have the same ATT_INVTYPE.
+
+B. Preferences
+1. A TYPE-A ENTITY_RS can also be part of a TYPE-C ENTITY_RS. In this case rules for the TYPE-C ENTITY_RS will take precedence and then the TYPE-A ENTITY_RS should be allocateed to the same ENTITY_ROM.
+2. A TYPE-A ENTITY_RS can also be part of a TYPE-B ENTITY_RS (there will be two link IDs). In this case the TYPE-B ENTITY_RS should take precedence and then the TYPE-A ENTITY_RS should be allocateed to the same ENTITY_ROM.
+3. A TYPE-A ENTITY_RS could also be part of a TYPE-B and a TYPE-C ENTITY_RS (there will be three link IDs). In this case the TYPE-C takes precedence then the TYPE-B and then the TYPE-A ENTITY_RS.
+
+C. TYPE-C
+1. ENTITY_RSs received from DOMAIN_RS that have the linkage will be treated as a TYPE-C ENTITY_RS - RAR will receive a link from DOMAIN_RS on the ENTITY_RS that links the ENTITY_RSs together - TYPE-C ENTITY_RS link ids will be unique 
+2. There could be more than two ENTITY_RSs linked together
+3. TYPE-C ENTITY_RSs cannot have a gap in the stay
+
+D. Upgrades
+1. RAR should be able to upgrade TYPE-A ENTITY_RSs  
+2. BOSS is aware that giving an upgrade to a TYPE-C ENTITY_RS potentially will give more days for an upgrade than originally planned 
+1. DOMAIN_RCM will provide ENTITY_RECOMs is such a way that to upgrade all or upgrade non of the linked ENTITY_RSs
+2. for TYPE-C ENTITY_RS with different ATT_INVTYPEs - DOMAIN_RCM will treat the ENTITY_RSs as separate and not TYPE-C
+
+E. Shuffling (i.e., RAR will process a ENTITY_RS and allocate a ENTITY_ROM)
+1. all ENTITY_RSs can be shuffled that do not have a ATT_DONOTMOVE flag on them and are not checked in.
+2. ENTITY_RSs that were previously allocateed a RM (DOMAIN_RCM) upgrade and where the CUST has not checked into the ENTITY_ROM will be treated as if they have not received an upgrade and be re processed.
+3. ENTITY_RSs that were cancelled will not be sent to RAR for processing and the availability of the ENTITY_ROM that was previously allocateed will be included as part of the ENTITY_ROM availability from DOMAIN_P as available.
+ 
+
+Special Rules
+A. TYPE-C
+1. TYPE-C - ENTITY_RSs of the same ATT_INVTYPE with consecutive day stays calculate LOS by sum of days 
+2. TYPE-C - ENTITY_RSs with multiple ATT_INVTYPEs, the LOS is grouped by ATT_INVTYPE and then calculate LOS by sum of days within each ATT_INVTYPE 
+3. TYPE-C ENTITY_RSs will use the first ENTITY_RSs rank score for ordering and process all related ENTITY_RSs at the same time
+1. ENTITY_RSs that are TYPE-C for the same CUST and same ATT_INVTYPE to be allocateed with the same ENTITY_ROM number so that the CUST is not moved to a different ENTITY_ROM  
+2. ENTITY_RSs that are TYPE-C to be considered for upgrades and given upgrades when aplicable so that CUSTs with the highest ranking are still considered for upgrades
+3. MATCHING INENTORY TYPES - use the combined LOS of the related ENTITY_RSs to identify an available ENTITY_ROM based on ATT_INVTYPE 
+4. NOT MATCHING INENTORY TYPES - calculate the LOS for each leg of the ENTITY_RSs where the ATT_INVTYPE matches consecutively in stay dates
+5. resevation rank of the ENTITY_RSs are different - allocate the same ENTITY_ROM number for all linked ENTITY_RSs by using the first ENTITY_RSs ranking, use the combined LOS
+6. use the CUST preferences when applicable and allocate the same ENTITY_ROM to all related ENTITY_RSs 
+7. different CUST preferences - use the highest rank CUST preferences to allocate the ENTITY_ROM 
+8. a leg of a TYPE-C ENTITY_RS has already checked in and all legs have the same ATT_INVTYPE - the SYS_RAR will not move/shuffle the other legs of the TYPE-C ENTITY_RS  
+9. one ENTITY_RS has been previously allocateed and a ATT_DONOTMOVE flag has been added but the other related ENTITY_RS has not been allocateed - allocate the other ENTITY_RS to the same ENTITY_ROM and allocate a ATT_DONOTMOVE (This scenario should not happen)   
+10. CUST booked a ENTITY_ROM (non-location specific) and the CUST preference is a ATT_HIGHFLR - attempt to honor the preference of the CUST and allocate ATT_HIGHFLR ENTITY_ROM
+11. CUST booked a ENTITY_ROM (non-location specific) and the CUST preference is a ATT_LOWFLR - attempt to honor the preference of the CUST and allocate ATT_LOWFLR ENTITY_ROM
+12. CUST booked a ATT_HIGHFLR and the CUST preference is a ATT_LOWFLR - allocate the lowest available ENTITY_ROM within the ATT_INVTYPE 
+13. CUST booked a ATT_LOWFLR and the CUST preference is a ATT_HIGHFLR - allocate the highest available ENTITY_ROM within the ATT_INVTYPE 
+14. CUST booked a ENTITY_ROM (non-location specific), ATT_HIGHFLR, or a ATT_LOWFLR ATT_INVTYPE and the CUST preference is near elevator - attempt to honor the preference of the CUST and allocate a near elevator ENTITY_ROM
+
+Negative Case Section:
+15. SYS_RAR cannot find the relating/linked ENTITY_RSs and the date of arrival is today - allocate a ENTITY_ROM to the ENTITY_RS based on its LOS and ATT_INVTYPE and preferences 
+16. SYS_RAR cannot find the relating/linked ENTITY_RSs and DT_ARR is in the future - do not allocate a ENTITY_ROM to the ENTITY_RS  
+17. no ENTITY_ROM availability for the sum of ATT_LOS - do not allocate both/all linked ENTITY_RSs, error (TYPE-C no availability) on both ENTITY_RSs
+
+Operational reports:
+18. operational summary report shall display the related ENTITY_RSs as allocateed 
+19. TYPE-C ENTITY_RS is in the future and the related ENTITY_RSs cannot be found - summary report shall display the ENTITY_RS as not allocateed with the following error message "TYPE-C ENTITY_RS user action required"
+
+
+B. TYPE-B
+1. TYPE-B - compare ENTITY_RSs DT_ARRs and DT_DEPs
+	if they match - use the sum of dates of highest rank ENTITY_RS to calculate LOS 
+	if they do not match - identify earliest DT_ARR and latest DT_DEP between the ENTITY_RSs to define LOS window
+2. TYPE-B - ENTITY_RSs will use the highest rank score and process at the same time
+if the stay dates differ, use the rank of the first arriving ENTITY_RS and process together
+if the TYPE-B ENTITY_RS is part of a TYPE-C, process the ENTITY_RS when processing the back-to back  
+1. ENTITY_RSs that have a TYPE-B linkage to be allocateed with consecutive ENTITY_ROMs so that the front desk agent does not need to reallocate the ENTITY_ROM 
+2. a ENTITY_RS has a TYPE-B linkage - RAR shall get all related ENTITY_RSs (limit?)
+3. one of the ENTITY_RSs has no availability - do not allocate ENTITY_ROM to that ENTITY_RS  only:error - TYPE-B ENTITY_RSs with no availability 
+4. conflicting preferences - ignore the preferences 
+5. matching preferences - attempt to adhere to the preferences 
+6. while selecting ENTITY_ROM to allocate adhere to the ENTITY_ROM ranker logic
+7. for TYPE-B ENTITY_RSs ignore the threshold
+8. TYPE-B is also part of a TYPE-C ENTITY_RS and the associated TYPE-B stay range extends longer than the TYPE-C stay range - allocate the nearest ENTITY_ROM with correct ATT_INVTYPE and availability. 
+
+
+C. TYPE-A
+1. Engine will handle the ENTITY_RSs with a TYPE-A linkage in such a way that the ENTITY_RSs are allocateed the same ENTITY_ROM number
+1. TYPE-A - compare ENTITY_RSs DT_ARRs and DT_DEPs
+	if they match - use the sum of dates of highest rank ENTITY_RS to calculate LOS 
+	if they do not match - identify earliest DT_ARR and latest DT_DEP between the ENTITY_RSs to define LOS window
+2. TYPE-A - ENTITY_RSs will use the highest rank score and process at the same time
+if the stay dates differ, use the rank of the first arriving ENTITY_RS and process together
+if the TYPE-A ENTITY_RS is part of a TYPE-B, process the ENTITY_RS when processing the TYPE-B 
+if the TYPE-A ENTITY_RS is part of a Bac-to-back, process the ENTITY_RS when processing the TYPE-C
+
+1. Different ranking - allocate same ENTITY_ROM number for all ENTITY_RSs by choosing the highest rank CUST, use combined LOS 
+2. Different CUST preferences - choose the highest ranked ENTITY_RS - use this CUST preference to allocate the ENTITY_ROM 
+3. TYPE-A is part of a TYPE-C ENTITY_RS and the TYPE-A stay range extends longer than the TYPE-C stay range - Then the SYS_RAR shall check the availability for the ENTITY_ROM and if available RAR will allocate the TYPE-A ENTITY_RS to the ENTITY_ROM (if there is already a ENTITY_RS allocateed to the ENTITY_ROM and there is not a ATT_DONOTMOVE the SYS_RAR shall shuffle the ENTITY_RSs)  
+4. TYPE-A is part of a TYPE-C ENTITY_RS and the TYPE-A stay range extends longer than the TYPE-C stay range and there is already a ENTITY_RS allocateed to the ENTITY_ROM and there is NO DO_NOT_MOVE the SYS_RAR shall shuffle the ENTITY_RSs  
+5. TYPE-A is part of a TYPE-B ENTITY_RS - process the TYPE-B first then allocate the same ENTITY_ROM to the TYPE-A ENTITY_RS
+6. TYPE-A is part of a TYPE-B ENTITY_RS but the TYPE-A stay dates are different from the TYPE-B 
+ - allocate the TYPE-A ENTITY_RS to the same ENTITY_ROM as the TYPE-B if availability exists 
+7. TYPE-A ENTITY_RS with a given ATT_INVTYPE and the threshold has been exceeded for that ATT_INVTYPE - ignore the threshold and allocate the TYPE-A ENTITY_RSs 
+8. ATT_INVTYPEs have mismatch - do not process the ENTITY_RSs and display message on the operational report "TYPE-A mismatch ATT_INVTYPEs"
+9. TYPE-A shall adhere to housekeeping sort order 
+
+
+
+D. RM Upgrades
+1. ENTITY_RSs will be chosen by RAR for upgrades and will consider Comp, TYPE-C, TYPE-B, share-with and regular transient ENTITY_RSs. (NUAs are not in sope)
+
+
+E. ENTITY_ROM Rank
+1. RAR tool to allocate ENTITY_ROMs to ENTITY_RSs while considering the best available ENTITY_ROM to be allocateed so that the best CUST gets the best ENTITY_ROM  
+2. ENTITY_ROM Ranker hierarchy logic will compliment the default ATT_HIGHFLR to ATT_LOWFLR allocatement logic 
+3. Assumption : Front office management would be ranking the ENTITY_ROMs on amenities/features, Rank numbers would range from good, better and best, 3 = best, 2 = better, 1 = good
+4. When applying the best to good ENTITY_ROMs to ENTITY_RS, this will follow the same logic RAR has implemented including housekeeping logic - DT_ARR, ATT_LOS, CUST rank for ENTITY_RSs arriving greater than today and DT_ARR = current date, ATT_LOS, arrival time, CUST rank for ENTITY_RSs arriving today.
+5. for ENTITY_RSs arriving tomorrow or later highest ranked CUST the best ENTITY_ROM then down from there
+6. for ENTITY_RSs arriving today best ENTITY_ROM is given to the earliest arrival then CUST rank 
+7. CUST arriving early housekeeping status trumps the ENTITY_ROM rank
+8. when selecting a ENTITY_ROM for the ENTITY_RS look for the best (best, better, good) ENTITY_ROM with the highest(?) number available within the ATT_INVTYPE
+9. when selecting a ENTITY_ROM for the ENTITY_RS and the CUST has a preference of near elevator - look for the best (best, better, good) ENTITY_ROM with the highest(?) number available near the elevator within the ATT_INVTYPE
+10. when selecting a ENTITY_ROM for the ENTITY_RS and the CUST has a preference of ATT_LOWFLR - look for the best (best, better, good) ENTITY_ROM with the lowest number available within the ATT_INVTYPE

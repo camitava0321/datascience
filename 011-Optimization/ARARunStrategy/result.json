@@ -1,0 +1,3572 @@
+[
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "202408072001",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T21:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-11",
+            "departureTime": "2024-09-11T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "8/22/2024",
+            "dtDepartureDate": "8/24/2024",
+            "finalInventoryTypeCode": "KING",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "202408072001",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T21:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-11",
+            "departureTime": "2024-09-11T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "8/22/2024",
+            "dtDepartureDate": "8/24/2024",
+            "finalInventoryTypeCode": "KING",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "HWHOSKW42O",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T21:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-11",
+            "departureTime": "2024-09-11T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "EGPSIKV50K",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T21:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-11",
+            "departureTime": "2024-09-11T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "BZTXVRK52F",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T22:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-11",
+            "departureTime": "2024-09-11T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "IQJICVT78I",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T17:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-11",
+            "departureTime": "2024-09-11T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "QKMLNNJ92A",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T16:45:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-12",
+            "departureTime": "2024-09-12T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "QMSUKGZ64K",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T18:35:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-12",
+            "departureTime": "2024-09-12T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "LCAVKRJ36E",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T22:32:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-12",
+            "departureTime": "2024-09-12T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "MNTTKCX76F",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T12:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-12",
+            "departureTime": "2024-09-12T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "DGTRZAJ27G",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T12:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-13",
+            "departureTime": "2024-09-13T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "VSJLOIZ94O",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T12:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-13",
+            "departureTime": "2024-09-13T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "AMHGSPB43J",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T12:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-13",
+            "departureTime": "2024-09-13T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "QHGBDVN99Y",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T12:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-13",
+            "departureTime": "2024-09-13T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "ERPWMOV78B",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T12:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-24",
+            "departureTime": "2024-09-24T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "CSIIXMK46C",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T12:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-24",
+            "departureTime": "2024-09-24T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "FWPXTZC68K",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T12:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-24",
+            "departureTime": "2024-09-24T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "QKQUJKF83K",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T12:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-24",
+            "departureTime": "2024-09-24T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "HPSLOFZ78X",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T12:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-25",
+            "departureTime": "2024-09-25T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "WATFXXQ28L",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T12:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-25",
+            "departureTime": "2024-09-25T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "WJZWONM30O",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T12:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-25",
+            "departureTime": "2024-09-25T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "SHSXWHZ43C",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T12:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-25",
+            "departureTime": "2024-09-25T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "ECWTZYV20H",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T12:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-10-01",
+            "departureTime": "2024-10-01T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "KING",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "PHDXUFJ56V",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T12:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-10-01",
+            "departureTime": "2024-10-01T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "MWMAGEI86G",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T12:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-10-01",
+            "departureTime": "2024-10-01T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "MOWOJAQ29U",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T12:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-10-01",
+            "departureTime": "2024-10-01T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "ZSFOWWV62X",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T12:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-30",
+            "departureTime": "2024-09-30T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "DHHFJVD24V",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T12:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-30",
+            "departureTime": "2024-09-30T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "LIWMALN88L",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T12:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-29",
+            "departureTime": "2024-09-29T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "VMMKTQF73N",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T12:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-29",
+            "departureTime": "2024-09-29T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "CFDEPZU84E",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T20:22:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-12",
+            "departureTime": "2024-09-12T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "MWUBIAN34V",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T20:21:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-12",
+            "departureTime": "2024-09-12T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "MVIKMFW51L",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T20:20:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-13",
+            "departureTime": "2024-09-13T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "WTRJYSY57I",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T20:19:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-13",
+            "departureTime": "2024-09-13T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "PNSUZGV51J",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T20:18:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-14",
+            "departureTime": "2024-09-14T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "CTZYJFF77X",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T20:17:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-14",
+            "departureTime": "2024-09-14T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "WNPJPYC25M",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T20:16:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-12",
+            "departureTime": "2024-09-12T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "QJYYPYG57U",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T20:15:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-26",
+            "departureTime": "2024-09-26T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "PDPWJBR28S",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T20:14:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-26",
+            "departureTime": "2024-09-26T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "OFUWKCU66I",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-12",
+            "arrivalTime": "2024-09-12T20:13:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-27",
+            "departureTime": "2024-09-27T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "VNNWWSM56H",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T20:12:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-10-02",
+            "departureTime": "2024-10-02T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "EHMOSOK43A",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T20:11:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-30",
+            "departureTime": "2024-09-30T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "PRVWFNK18O",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-12",
+            "arrivalTime": "2024-09-12T20:10:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-14",
+            "departureTime": "2024-09-14T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "GKGFAUV50V",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-12",
+            "arrivalTime": "2024-09-12T20:09:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-15",
+            "departureTime": "2024-09-15T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "QSXYKLF37R",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T20:08:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-25",
+            "departureTime": "2024-09-25T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "QNQN",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "JHLSECK41P",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T20:07:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-25",
+            "departureTime": "2024-09-25T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "ONBR",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "TLDZPML72R",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T20:06:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-25",
+            "departureTime": "2024-09-25T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "ONBR",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "NCNKJJT64K",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T20:05:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-25",
+            "departureTime": "2024-09-25T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "ONBR",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "EEWSUDK35S",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T20:04:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-26",
+            "departureTime": "2024-09-26T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "ONBR",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "KROPDDM10W",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T20:03:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-10-01",
+            "departureTime": "2024-10-01T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "ONBR",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "HJAAYQN94R",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T20:02:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-10-01",
+            "departureTime": "2024-10-01T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "ONBR",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "FGPEIFX41G",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T20:01:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-30",
+            "departureTime": "2024-09-30T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "ONBR",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "NCOBGLS19U",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T20:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-11",
+            "departureTime": "2024-09-11T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "ONBR",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "OBAJJIW73Q",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T11:00:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-11",
+            "departureTime": "2024-09-11T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "ONBR",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "OXGEHUM78Y",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T10:01:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-11",
+            "departureTime": "2024-09-11T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "ONBR",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "SAAEPKN50B",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T09:30:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-11",
+            "departureTime": "2024-09-11T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "ONBR",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "BEPZOIY39C",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T03:45:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-12",
+            "departureTime": "2024-09-12T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "ONBR",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "EOAETCN67W",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T04:43:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-12",
+            "departureTime": "2024-09-12T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "ONBR",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "BKKPRJK21S",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T05:32:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-12",
+            "departureTime": "2024-09-12T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "ONBR",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "HJSKAFS32J",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T06:22:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-12",
+            "departureTime": "2024-09-12T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "ONBR",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "LMEFOKT83U",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T05:01:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-13",
+            "departureTime": "2024-09-13T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "STDO",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "VINPEHA81N",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T10:02:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-13",
+            "departureTime": "2024-09-13T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "STDO",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "FPCKJZX23I",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T09:31:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-13",
+            "departureTime": "2024-09-13T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "STDO",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "ZNINBAG79I",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T03:46:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-13",
+            "departureTime": "2024-09-13T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "STDO",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "VBPCYLV17Q",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T04:44:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-24",
+            "departureTime": "2024-09-24T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "STDO",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "AEEWMAW87E",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T05:33:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-24",
+            "departureTime": "2024-09-24T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "STDO",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "ETJPBAY16D",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T06:23:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-24",
+            "departureTime": "2024-09-24T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "STDO",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "WTMKGCO28W",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T05:01:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-24",
+            "departureTime": "2024-09-24T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "STDO",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "LJKMALK96Z",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T10:03:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-25",
+            "departureTime": "2024-09-25T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "STDO",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "UIKMQJO79Z",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T09:32:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-25",
+            "departureTime": "2024-09-25T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "STDO",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "TMDEHWK38E",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T03:47:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-25",
+            "departureTime": "2024-09-25T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "STDO",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "YYPDSZJ14M",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T04:45:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-25",
+            "departureTime": "2024-09-25T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "STDO",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "XEVZBMF97G",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T05:34:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-10-01",
+            "departureTime": "2024-10-01T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "STDO",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "KTQYURC63V",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T06:24:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-10-01",
+            "departureTime": "2024-10-01T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "STDO",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "UHRRNRX43A",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T05:01:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-10-01",
+            "departureTime": "2024-10-01T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "STDO",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "RUWSFQS60Q",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T10:04:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-10-01",
+            "departureTime": "2024-10-01T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "STDO",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "SBPYZPP34K",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T09:33:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-30",
+            "departureTime": "2024-09-30T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "STDO",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "QPPDJWF78W",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T03:48:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-30",
+            "departureTime": "2024-09-30T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "STDO",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "KAGJPHQ30N",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T04:46:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-29",
+            "departureTime": "2024-09-29T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXQS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "NNUOCST41F",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-10",
+            "arrivalTime": "2024-09-10T05:35:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-29",
+            "departureTime": "2024-09-29T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXQS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "ZMEOUPI47Y",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T06:25:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-12",
+            "departureTime": "2024-09-12T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXQS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "INFWBPN31F",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T05:01:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-12",
+            "departureTime": "2024-09-12T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXQS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "BHVEQOA72R",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T10:05:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-13",
+            "departureTime": "2024-09-13T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXQS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "ILITPUP38G",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T09:34:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-13",
+            "departureTime": "2024-09-13T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXQS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "SYLYUWB37O",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T03:49:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-14",
+            "departureTime": "2024-09-14T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXQS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "TQKXVVB25E",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T04:47:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-14",
+            "departureTime": "2024-09-14T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXQS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "QKZOANN37L",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T05:36:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-12",
+            "departureTime": "2024-09-12T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXQS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "FSMAHLQ55S",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T06:26:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-26",
+            "departureTime": "2024-09-26T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXQS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "WIBKKFH98K",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T05:01:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-26",
+            "departureTime": "2024-09-26T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXQS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "GINYEAQ73N",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-12",
+            "arrivalTime": "2024-09-12T10:06:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-27",
+            "departureTime": "2024-09-27T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXQS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "AHHHADF46B",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T09:35:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-10-02",
+            "departureTime": "2024-10-02T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXQS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "VPKIPJX94P",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T03:50:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-30",
+            "departureTime": "2024-09-30T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXQS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "XSNHEJD40Y",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-12",
+            "arrivalTime": "2024-09-12T04:48:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-14",
+            "departureTime": "2024-09-14T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXQS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "HKBECQI23C",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-12",
+            "arrivalTime": "2024-09-12T05:37:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-15",
+            "departureTime": "2024-09-15T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXKS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "ISNSIZQ91I",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T06:27:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-25",
+            "departureTime": "2024-09-25T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXKS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "YZQCGLW46V",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T05:01:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-25",
+            "departureTime": "2024-09-25T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXKS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "DMYCKDK42Q",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T10:07:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-25",
+            "departureTime": "2024-09-25T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXKS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "VFWJVOH77S",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T09:36:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-25",
+            "departureTime": "2024-09-25T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXKS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "MMXULIM84G",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T03:51:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-26",
+            "departureTime": "2024-09-26T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXKS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "YQDIXMZ98I",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T04:49:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-10-01",
+            "departureTime": "2024-10-01T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXKS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "EYFTVRH51S",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T05:38:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-10-01",
+            "departureTime": "2024-10-01T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXKS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    },
+    {
+    "araProcessedTs": "2024-07-26T16:45:36.778210266",
+    "compositeRoomReqInd": false,
+    "connectingRoomReqInd": false,
+    "crsConfirmationId": "KAXEPTI61X",
+    "crsContStayLinkId": "",
+    "crsShareLinkId": "",
+    "groupId": "",
+    "pmsConfirmationId": "",
+    "resUpgradeScore": "1234.4",
+    "roomAssignedByAraInd": false,
+    "roomUpgradedByAraInd": false,
+    "segments":
+        [
+            {
+            "arrivalDate": "2024-09-11",
+            "arrivalTime": "2024-09-11T06:28:00.000Z",
+            "complimentaryUpgraded": false,
+            "dateSearchString": "",
+            "departureDate": "2024-09-30",
+            "departureTime": "2024-09-30T12:00:00.000Z",
+            "doNotMoveInd": false,
+            "dtArrivalDate": "",
+            "dtDepartureDate": "",
+            "finalInventoryTypeCode": "",
+            "id": "1",
+            "inventoryTypeCode": "EXKS",
+            "miosUpgraded": false,
+            "roomId": "",
+            "sNAUpgraded": false,
+            "upgradedInventoryTypeCode": "",
+            "upgradeScore": "0"
+            }
+        ]
+    }
+]

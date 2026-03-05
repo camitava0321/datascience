@@ -28,7 +28,7 @@ d = {'Name':pd.Series(['Tom','James','Ricky','Vin','Steve','Smith','Jack',
 
 #Create a DataFrame
 df = pd.DataFrame(d)
-print df
+print (df)
 
 #%% - Functions & Description
 """
@@ -62,7 +62,7 @@ Hence generic operations don’t work with all functions.
 #Summarizing Data
 #The describe() function computes a summary of statistics 
 #pertaining to the DataFrame columns.
-print df.describe()
+print (df.describe())
 
 #This function gives the mean, std and IQR values. 
 #And, function excludes the character columns and 
@@ -74,22 +74,22 @@ print df.describe()
 #    number − Summarizes Numeric columns
 #    all − Summarizes all columns together (Should not pass it as a list value)
 
-print df.describe(include=['object'])
-print df. describe(include='all')
+print (df.describe(include=['object']))
+print (df. describe(include='all'))
 #%% - Specific Functions - sum()
 #Returns the sum of the values for the requested axis. 
 #By default, axis is index (axis=0).
-print df.sum()
+print (df.sum())
 #Each individual column is added individually (Strings are appended).
 
 #For axis=1
-print df.sum(1)
+print (df.sum(1))
 
 #%% - Specific Functions - mean()
 #Returns the average value
-print df.mean()
+print (df.mean())
 
 
 #%% - Specific Functions - std()
 #Returns the Bressel standard deviation of the numerical columns.
-print df.std()
+print (df.std())
