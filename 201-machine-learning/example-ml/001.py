@@ -404,13 +404,13 @@ class Imputer(TransformerMixin):
             self.categorical_columns = list(X.select_dtypes('object').columns)
             self.mode_dict_ = {}
         
-        if len(self.categorical_columns) == 0:
-            return self
-        
-        for col in self.categorical_columns:
-            """Lowercase and fit"""
-            X.loc[:, col] = X[col].map(Imputer.to_lowercase)
-            self.mode_dict_[col] = X[col].mode().iloc[0]
+            if len(self.categorical_columns) == 0:
+                return self
+            
+            for col in self.categorical_columns:
+                """Lowercase and fit"""
+                X.loc[:, col] = X[col].map(Imputer.to_lowercase)
+                self.mode_dict_[col] = X[col].mode().iloc[0]
         
         return self
     
@@ -516,23 +516,23 @@ class CustomRobustScaler(RobustScaler):
         
         return X_original
     
-    def fit_model(model, X, y):
-        model.fit(X, y)
-        y_pred = model.predict(X)
-        acc_score = accuracy_score(y, y_pred)
-        acc_dict = {
-        'model': model,
-        "model_name": model.__class__.__name__,
-        "accuracy": acc_score
-        }
-        return acc_dict
+def fit_model(model, X, y):
+    model.fit(X, y)
+    y_pred = model.predict(X)
+    acc_score = accuracy_score(y, y_pred)
+    acc_dict = {
+    'model': model,
+    "model_name": model.__class__.__name__,
+    "accuracy": acc_score
+    }
+    return acc_dict
 
 #%%
 #The following requirements should be available in the requirements.txt file
-Flask==2.0.1
-numpy==1.21.2
-pandas==1.2.4
-scikit_learn==1.0
+# Flask==2.0.1
+# numpy==1.21.2
+# pandas==1.2.4
+# scikit_learn==1.0
 #%%
 #The following code must be inside the training.py module
 import pickle
@@ -582,8 +582,8 @@ def train_titanic():
     ]
     
     for model in models:
-    acc_dict = fit_model(model, x_train_preprocessed, y_train)
-    accuracy_list.append(acc_dict)
+        acc_dict = fit_model(model, x_train_preprocessed, y_train)
+        accuracy_list.append(acc_dict)
     
     acc_df = pd.DataFrame(accuracy_list).sort_values("accuracy", ascending=False)
     model = acc_df.iloc[0]['model']
@@ -604,26 +604,26 @@ def test_titanic():
     x_test = test_data.drop("PassengerId", axis=1)
     
     try:
-    model = pickle.load(open(model_path, 'rb'))
-    pipeline = pickle.load(open(pipeline_path, 'rb'))
+        model = pickle.load(open(model_path, 'rb'))
+        pipeline = pickle.load(open(pipeline_path, 'rb'))
     
     except Exception as e:
-    print(f"Exception: {e}")
+        print(f"Exception: {e}")
+        return {
+        'status': "failure",
+        "message": "Train the model first"
+        }
+
+    x_test_preprocessed = pipeline.transform(x_test)
+    predictions = model.predict(x_test_preprocessed)
+
     return {
-    'status': "failure",
-    "message": "Train the model first"
+    "status": "success",
+    "predictions": predictions.tolist()
     }
 
-x_test_preprocessed = pipeline.transform(x_test)
-predictions = model.predict(x_test_preprocessed)
-
-return {
-"status": "success",
-"predictions": predictions.tolist()
-}
-
 if __name__ == "__main__":
-app.run(host='0.0.0.0', port=8088)
+    app.run(host='0.0.0.0', port=8088)
 #%%
 #How does the above code work?
 
