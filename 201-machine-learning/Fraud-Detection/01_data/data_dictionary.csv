@@ -1,0 +1,51 @@
+﻿Column,Group,Renamed,Describtion
+Index,,Index,the index number of a row
+Address,,address,the address of the ethereum account
+FLAG,,flag,whether the transaction is fraud or not
+Avg min between sent tnx,transaction_time,transaction_time__avg min between sent tnx,Average time between sent transactions for account in minutes
+Avg min between received tnx,transaction_time,transaction_time__avg min between received tnx,Average time between received transactions for account in minutes
+Time Diff between first and last (Mins),transaction_time,transaction_time__time diff between first and last (mins),Time difference between the first and last transaction
+Sent tnx,number_of_transactions,number_of_transactions__sent tnx,Total number of sent normal transactions
+Received Tnx,number_of_transactions,number_of_transactions__received tnx,Total number of received normal transactions
+Number of Created Contracts,number_of_transactions,number_of_transactions__number of created contracts,Total Number of created contract transactions
+Unique Received From Addresses,number_of_transactions,number_of_transactions__unique received from addresses,Total Unique addresses from which account received transactions
+Unique Sent To Addresses,number_of_transactions,number_of_transactions__unique sent to addresses,Total Unique addresses from which account sent transactions
+min value received,ether_value,ether_value__min value received,Minimum value in Ether ever received
+max value received,ether_value,ether_value__max value received,Maximum value in Ether ever received
+avg val received,ether_value,ether_value__avg val received,Average value in Ether ever received
+min val sent,ether_value,ether_value__min val sent,Minimum value of Ether ever sent
+max val sent,ether_value,ether_value__max val sent,Maximum value of Ether ever sent
+avg val sent,ether_value,ether_value__avg val sent,Average value of Ether ever sent
+min value sent to contract,ether_value,ether_value__min value sent to contract,Minimum value of Ether sent to a contract
+max val sent to contract,ether_value,ether_value__max val sent to contract,Maximum value of Ether sent to a contract
+avg value sent to contract,ether_value,ether_value__avg value sent to contract,Average value of Ether sent to contracts
+total transactions (including tnx to create contract,number_of_transactions,number_of_transactions__total transactions (including tnx to create contract,Total number of transactions
+total Ether sent,ether,ether__total ether sent,Total Ether sent for account address
+total ether received,ether,ether__total ether received,Total Ether received for account address
+total ether sent contracts,ether,ether__total ether sent contracts,Total Ether sent to Contract addresses
+total ether balance,ether,ether__total ether balance,Total Ether Balance following enacted transactions
+Total ERC20 tnxs,erc20,erc20__total erc20 tnxs,Total number of ERC20 token transfer transactions
+ERC20 total Ether received,erc20,erc20__erc20 total ether received,Total ERC20 token received transactions in Ether
+ERC20 total ether sent,erc20,erc20__erc20 total ether sent,Total ERC20 token sent transactions in Ether
+ERC20 total Ether sent contract,erc20,erc20__erc20 total ether sent contract,Total ERC20 token transfer to other contracts in Ether
+ERC20 uniq rec addr,erc20_num_of_transactions,erc20_num_of_transactions__erc20 uniq rec addr,Number of ERC20 token transactions sent to Unique account addresses
+ERC20 uniq sent addr.1,erc20_num_of_transactions,erc20_num_of_transactions__erc20 uniq sent addr.1,Number of ERC20 token transactions received from Unique addresses
+ERC20 uniq rec contract addr,erc20_num_of_transactions,erc20_num_of_transactions__erc20 uniq rec contract addr,Number of ERC20token transactions received from Unique contract addresses
+ERC20 avg time between sent tnx,erc20_transaction_time,erc20_transaction_time__erc20 avg time between sent tnx,Average time between ERC20 token sent transactions in minutes
+ERC20 avg time between rec 2 tnx,erc20_transaction_time,erc20_transaction_time__erc20 avg time between rec 2 tnx,
+ERC20 avg time between rec tnx,erc20_transaction_time,erc20_transaction_time__erc20 avg time between rec tnx,Average time between ERC20 token received transactions in minutes
+ERC20 avg time between contract tnx,erc20_transaction_time,erc20_transaction_time__erc20 avg time between contract tnx,Average time ERC20 token between sent token transactions
+ERC20 min val sent contract,erc20_value,erc20_value__erc20 min val sent contract,
+ERC20 max val sent contract,erc20_value,erc20_value__erc20 max val sent contract,
+ERC20 avg val sent contract,erc20_value,erc20_value__erc20 avg val sent contract,
+ERC20 min val rec,erc20_value,erc20_value__erc20 min val rec,Minimum value in Ether received from ERC20 token transactions for account
+ERC20 max val rec,erc20_value,erc20_value__erc20 max val rec,Maximum value in Ether received from ERC20 token transactions for account
+ERC20 avg val rec,erc20_value,erc20_value__erc20 avg val rec,Average value in Ether received from ERC20 token transactions for account
+ERC20 min val sent,erc20_value,erc20_value__erc20 min val sent,Minimum value in Ether sent from ERC20 token transactions for account
+ERC20 max val sent,erc20_value,erc20_value__erc20 max val sent,Maximum value in Ether sent from ERC20 token transactions for account
+ERC20 avg val sent,erc20_value,erc20_value__erc20 avg val sent,Average value in Ether sent from ERC20 token transactions for account
+ERC20 uniq sent addr,erc20,erc20__erc20 uniq sent addr,
+ERC20 uniq rec token name,erc20,erc20__erc20 uniq rec token name,Number of Unique ERC20 tokens transferred
+ERC20 uniq sent token name,erc20,erc20__erc20 uniq sent token name,Number of Unique ERC20 tokens received
+ERC20 most sent token type,token,token__erc20 most sent token type,Most sent token for account via ERC20 transaction
+ERC20_most_rec_token_type,token,token__erc20_most_rec_token_type,Most received token for account via ERC20 transactions

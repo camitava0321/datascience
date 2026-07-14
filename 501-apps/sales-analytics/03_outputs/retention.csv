@@ -1,0 +1,5 @@
+sales_month,num_members,retain_1m,retain_2m,retain_3m,retention_rate_1m,retention_rate_2m,retention_rate_3m
+2018-01,8564,5044,2970,2450,58.9,34.7,28.6
+2018-02,3240,2389,938,0,73.7,29.0,
+2018-03,4664,3029,0,0,64.9,,
+2018-04,2765,1,0,0,,,
