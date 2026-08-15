@@ -1,0 +1,135 @@
+mci-meta.txt
+May 1, 2014
+Dec 2, 2014
+
+This file describes the coding conventions of the data files.
+This file is encoded in utf-8 encoding.
+
+The original digitization is file mci_orig.txt, which is
+coded in the cp1252 (windows 1252) encoding,
+and is best viewed in a text editor which supports this encoding.
+For example, in Emacs, one may use the command
+revert-buffer-with-coding-system
+and then select cp1252 as the coding.
+The internet reference http://www.cp1252.com/ describes this coding system.
+
+The file mci_orig_utf8.txt is a conversion of mci_orig.txt to the
+more common utf-8 encoding.
+(Dec 2, 2014) The file mci_orig_utf8_slp1.txt contains the same data, but
+  has Devanagari coded in SLP1 transliteration.  It is the basis of further
+  corrections. This affects only 10 of the 77760 lines of the digitization.
+
+The file mci.txt is also in the utf-8 encoding, and incorporates various
+editing changes, such as corrections of typographical errors.
+
+There are several extended ascii codes occurring in mci.txt:
+¤  (\u00a4)    19 := CURRENCY SIGN
+¦  (\u00a6)     1 := BROKEN BAR
+§  (\u00a7)     1 := SECTION SIGN
+º  (\u00ba)    67 := MASCULINE ORDINAL INDICATOR
+œ  (\u0153)     1 := LATIN SMALL LIGATURE OE
+‘  (\u2018)   427 := LEFT SINGLE QUOTATION MARK
+’  (\u2019)   423 := RIGHT SINGLE QUOTATION MARK
+“  (\u201c)    91 := LEFT DOUBLE QUOTATION MARK
+”  (\u201d)    86 := RIGHT DOUBLE QUOTATION MARK
+…  (\u2026)  3099 := HORIZONTAL ELLIPSIS
+
+
+
+The {X...X} style of coding serves several purposes:
+{#X#}    10  :  devanagari text, coded in HK.
+                Dec 2, 2014. X coded in SLP1.
+{@X@}  6659  : Bold text.
+{%X%} 20172  : italic text 
+{|X|}     8  : widely spaced text
+{??}      9  : unreadable text
+
+The <> style of coding is used as follows:
+<F>...</F>  21 : Footnote
+<>       69882 : Begin ordinary line
+<P>       7781 : Paragraph, headword
+<H>         34 : Head line
+<HI>        14 : In Preface material
+<HS>         4 : In Preface material
+<NI>         8 : In Preface material
+<S>          8 : Section titles
+
+Page breaks are coded as [Page...].
+In general, a page number has form [PageX+ n], 
+where X is the page number of the following page (or page-column), 
+and 'n' is the number of lines pertaining to X.
+X has one of several forms:
+ 00-PP    for the Preface; PP from 01 to 43
+PPP-c     body of text; PPP from 001 to 981 , and = 'a' or 'b' (column)
+PPP-sc    where s is 1 or 2.  A few pages with multiple 'sections'.
+
+The lines of the digitization represent lines of the Text.
+
+Headword coding is exemplified by: r'^<P>{@(.*?)@}'
+The general form is <P>{@X@}  , X is headword, encoded in AS.
+Some headwords end in ^1, ^2, etc, indicating a homonym number.
+
+
+The headwords are ordered according to Sanskrit alphabet ordering, within
+sections of the text.
+
+
+Sanskrit in the text generall appears in the European Indological form, which is
+coded in mci.txt with the the AS (Anglicized Sanskrit) coding.
+
+The general AS scheme, as described in CDSL.pdf, uses Latin alphabetical
+letters 'x (a-z,A-Z), possibly with suffixed numbers; the letter-number
+combinations are, in the general scheme:
+x1 = macron
+x2 = dot below
+x3 = dot above
+x4 = accent aigu
+x5 = tilde
+x6 = dash below
+x7 = umlaut
+x10 = circonflex (hat)
+x11 = accent grave
+
+Here are the characters that occur in mci.txt in this coding,
+with their approximate frequency:
+
+A1   552 := Ā  (\u0100)  LATIN CAPITAL LETTER A WITH MACRON
+a1 61198 := ā  (\u0101)  LATIN SMALL LETTER A WITH MACRON
+a2     1 := ạ  (\u1ea1)  LATIN SMALL LETTER A WITH DOT BELOW
+a4     1 := á(\u00e1) LATIN SMALL LETTER A with udatta accent
+a7     1 := ä  (\u00e4)  LATIN SMALL LETTER A WITH DIAERESIS
+d2  3323 := ḍ  (\u1e0d)  LATIN SMALL LETTER D WITH DOT BELOW
+D2     3 := Ḍ  (\u1e0c)  LATIN CAPITAL LETTER D WITH DOT BELOW
+h2  8863 := ḥ  (\u1e25)  LATIN SMALL LETTER H WITH DOT BELOW
+I1     9 := Ī  (\u012a)  LATIN CAPITAL LETTER I WITH MACRON
+i1 12253 := ī  (\u012b)  LATIN SMALL LETTER I WITH MACRON
+i10     1 := î  (\u00ee)  LATIN SMALL LETTER I WITH CIRCUMFLEX
+i4     1 := í (\u00ed) LATIN SMALL LETTER I and udatta accent
+i5     1 := ĩ  (\u0129)  LATIN SMALL LETTER I WITH TILDE
+l2     7 := ḷ  (\u1e37)  LATIN SMALL LETTER L WITH DOT BELOW
+l5     8 := ĩ  (\u0129)  LATIN SMALL LETTER L WITH TILDE
+m2    12 := ṃ  (\u1e43)  LATIN SMALL LETTER M WITH DOT BELOW
+m3 11859 := ṁ  (\u1e41)  LATIN SMALL LETTER M WITH DOT ABOVE
+n2 13651 := ṇ  (\u1e47)  LATIN SMALL LETTER N WITH DOT BELOW
+n3  2336 := ṅ  (\u1e45)  LATIN SMALL LETTER N WITH DOT ABOVE
+n5  2202 := ñ  (\u00f1)  LATIN SMALL LETTER N WITH TILDE
+o1     6 := ō  (\u014d)  LATIN SMALL LETTER O WITH MACRON
+o7     7 := ö  (\u00f6)  LATIN SMALL LETTER O WITH DIAERESIS
+R2   251 := Ṛ  (\u1e5a)  LATIN CAPITAL LETTER R WITH DOT BELOW
+r2  7441 := ṛ  (\u1e5b)  LATIN SMALL LETTER R WITH DOT BELOW
+r21   42 := ṝ  (\u1e5d)  LATIN SMALL LETTER R WITH DOT BELOW AND MACRON
+S2     7 := Ṣ  (\u1e62)  LATIN CAPITAL LETTER S WITH DOT BELOW
+s2 15139 := ṣ  (\u1e63)  LATIN SMALL LETTER S WITH DOT BELOW
+s3     1 := ṡ  (\u1e61)  LATIN SMALL LETTER S WITH DOT ABOVE
+S4  2308 := Ś  (\u015a)  LATIN CAPITAL LETTER S WITH ACUTE
+s4 13045 := ś  (\u015b)  LATIN SMALL LETTER S WITH ACUTE
+T2     1 := Ṭ  (\u1e6c)  LATIN CAPITAL LETTER T WITH DOT BELOW
+t2  4536 := ṭ  (\u1e6d)  LATIN SMALL LETTER T WITH DOT BELOW
+u1  4658 := ū  (\u016b)  LATIN SMALL LETTER U WITH MACRON
+U7     1 := Ü  (\u00dc)  LATIN CAPITAL LETTER U WITH DIARESIS
+u7     2 := ü  (\u00fc)  LATIN SMALL LETTER U WITH DIAERESIS
+
+
+Letter-number combinations, not AS (in 1st line or preface)
+L1555     1 := NO DESCRIPTION
+R5     1 := NO DESCRIPTION

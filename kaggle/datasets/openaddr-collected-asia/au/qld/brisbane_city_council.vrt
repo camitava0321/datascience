@@ -1,0 +1,8 @@
+<OGRVRTDataSource>
+    <OGRVRTLayer name="brisbane_city_council">
+        <SrcDataSource relativeToVRT="1">brisbane_city_council.csv</SrcDataSource>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:4326</LayerSRS>
+        <GeometryField encoding="PointFromColumns" reportSrcColumn="FALSE" x="LON" y="LAT"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>

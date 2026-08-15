@@ -13,6 +13,8 @@
 
 from scipy.stats import bernoulli
 import seaborn as sb
+import numpy as np
+import matplotlib.pyplot as plt
 
 #A bernouli distribution data 
 #We generate a bernoulli distributed discrete random variable using scipy.stats module's bernoulli.rvs() 

@@ -1,0 +1,711 @@
+Data collected by OpenAddresses (http://openaddresses.io).
+
+ae/du/dubai-ar
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+ae/du/dubai-en
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+au/act/statewide
+Website: http://app.actmapi.act.gov.au/download.html
+License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Required attribution: ACT Addresses from <a href='http://actmapi.act.gov.au/'>ACTMapi</a> &copy;ACT Government
+
+au/countrywide
+Website: http://data.gov.au/dataset/geocoded-national-address-file-g-naf
+License: https://data.gov.au/dataset/geocoded-national-address-file-g-naf/resource/09f74802-08b1-4214-a6ea-3591b2753d30
+Required attribution: G-NAF ©PSMA Australia Limited licensed by the Commonwealth of Australia under the Open Geo-coded National Address File (G-NAF) End User Licence Agreement.
+
+au/nsw/statewide
+Website: http://spatialservices.finance.nsw.gov.au/mapping_and_imagery/lpi_web_services
+License: CC BY 3.0 AU (http://creativecommons.org/licenses/by/3.0/au/)
+Required attribution: ©Department Finance, Services & Innovation 2018
+
+au/qld/brisbane_city_council
+Website: https://www.data.brisbane.qld.gov.au/data/dataset/property-address-data
+License: CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/legalcode)
+Required attribution: © Brisbane City Council 2018
+
+au/qld/city_of_gold_coast
+Website: http://data-goldcoast.opendata.arcgis.com/datasets/cadastre
+License: CC BY 3.0 AU (https://creativecommons.org/licenses/by/3.0/au/)
+Required attribution: City of Gold Coast
+
+au/qld/logan_city
+Website: http://data-logancity.opendata.arcgis.com/datasets/lcc-primary-property-address
+License: CC BY 3.0 AU (http://creativecommons.org/licenses/by/3.0)
+Required attribution: Logan City Council
+
+au/qld/statewide
+Website: http://qldspatial.information.qld.gov.au/catalogue/custom/detail.page?fid={4091CAF1-50E6-4BC3-B3D4-229AA318231A}
+License: CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/)
+Required attribution: © State of Queensland (Department of Natural Resources, Mines and Energy) 2018
+
+au/qld/sunshine_coast_council
+Website: https://data.sunshinecoast.qld.gov.au/Planning-and-Cadastre/Land-Parcel-Information/wbdm-vdqs
+License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/legalcode)
+Required attribution: Yes
+
+au/qld/townsville_city_council
+Website: https://data.gov.au/dataset/d1e688f4-9203-4a98-bb2f-3b3aebbbc1ee
+License: CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/legalcode)
+Required attribution: Townsville City Council
+
+au/tas/launceston_city_council
+Website: https://data.gov.au/dataset/addresses
+License: CC BY 3.0 AU (http://creativecommons.org/licenses/by/3.0/au/deed.en)
+Required attribution: City of Launceston
+
+au/tas/statewide
+Website: http://listdata.thelist.tas.gov.au/opendata/index.html#LIST_Address_Points
+License: CC BY 3.0 AU (http://creativecommons.org/licenses/by/3.0/au/)
+Required attribution: Address Points from www.theLIST.tas.gov.au © State of Tasmania
+
+au/vic/city_of_greater_geelong
+Website: http://www.geelongaustralia.com.au/data/item/cadastre-land-and-property-boundaries-city-of-greater-geelong.aspx
+License: CC BY 3.0 AU (http://creativecommons.org/licenses/by/3.0/au/)
+Required attribution: City of Greater Geelong
+
+au/vic/city_of_melbourne
+Website: https://data.melbourne.vic.gov.au/Property-Planning/Street-addresses/a7rp-xtya/about
+License: CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/legalcode)
+Required attribution: City of Melbourne, Australia
+
+au/vic/statewide
+Website: https://www.data.vic.gov.au/data/dataset/address-vicmap-address
+License: CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/)
+Required attribution: Copyright © The State of Victoria, Department of Environment, Land, Water & Planning 2018
+
+cn/42/wuhan
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+il/city_of_tel_aviv
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+is/countrywide
+Website: http://www.skra.is/
+License: http://www.skra.is/fasteignaskra/nidurhalsthjonusta/stadfangaskra/user-licence/
+Required attribution: Yes
+
+jp/aichi
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/akita
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/aomori
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/chiba
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/ehime
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/fukui
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/fukuoka
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/fukushima
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/gifu
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/gunma
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/hiroshima
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/hokkaido
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/hyogo
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/ibaraki
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/ishikawa
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/iwate
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/kagawa
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/kagoshima
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/kanagawa
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/kochi
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/kumamoto
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/kyoto
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/mie
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/miyagi
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/miyazaki
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/nagano
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/nagasaki
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/nara
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/niigata
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/oita
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/okayama
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/okinawa
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/osaka
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/saga
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/saitama
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/shiga
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/shimane
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/shizuoka
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/tochigi
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/tokushima
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/tokyo
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/tottori
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/toyama
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/wakayama
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/yamagata
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/yamaguchi
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+jp/yamanashi
+Website: http://nlftp.mlit.go.jp/isj/index.html
+License: http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+Required attribution: Japanese Ministry of Land, Infrastructure and Transport
+
+kr/11/provincewide
+Website: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=geodata
+License: Unknown
+Required attribution: Ministry of the Interior
+
+kr/26/provincewide
+Website: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=geodata
+License: Unknown
+Required attribution: Ministry of the Interior
+
+kr/27/provincewide
+Website: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=geodata
+License: Unknown
+Required attribution: Ministry of the Interior
+
+kr/28/provincewide
+Website: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=geodata
+License: Unknown
+Required attribution: Ministry of the Interior
+
+kr/29/provincewide
+Website: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=geodata
+License: Unknown
+Required attribution: Ministry of the Interior
+
+kr/30/provincewide
+Website: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=geodata
+License: Unknown
+Required attribution: Ministry of the Interior
+
+kr/31/provincewide
+Website: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=geodata
+License: Unknown
+Required attribution: Ministry of the Interior
+
+kr/41/provincewide
+Website: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=geodata
+License: Unknown
+Required attribution: Ministry of the Interior
+
+kr/42/provincewide
+Website: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=geodata
+License: Unknown
+Required attribution: Ministry of the Interior
+
+kr/43/provincewide
+Website: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=geodata
+License: Unknown
+Required attribution: Ministry of the Interior
+
+kr/44/provincewide
+Website: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=geodata
+License: Unknown
+Required attribution: Ministry of the Interior
+
+kr/45/provincewide
+Website: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=geodata
+License: Unknown
+Required attribution: Ministry of the Interior
+
+kr/46/provincewide
+Website: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=geodata
+License: Unknown
+Required attribution: Ministry of the Interior
+
+kr/47/provincewide
+Website: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=geodata
+License: Unknown
+Required attribution: Ministry of the Interior
+
+kr/48/provincewide
+Website: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=geodata
+License: Unknown
+Required attribution: Ministry of the Interior
+
+kr/49/provincewide
+Website: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=geodata
+License: Unknown
+Required attribution: Ministry of the Interior
+
+kr/50/provincewide
+Website: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=geodata
+License: Unknown
+Required attribution: Ministry of the Interior
+
+kr/seoul/chongnogu-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1088
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/chunggu-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1089
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/chungnanggu-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1090
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/kangbukku-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1068
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/kangdonggu-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1067
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/kangnamgu-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1064
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/kangseogu-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1069
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/keumcheongu-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1073
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/kurogu-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1072
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/kwanakku-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1070
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/kwangjingu-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1071
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/mapogu-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1078
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/noweongu-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1074
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/seochogu-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1080
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/seodaemungu-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1079
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/seongbukku-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1082
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/seongdonggu-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1081
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/songpagu-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1083
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/tobonggu-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1075
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/tongdaemungu-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1076
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/tongjakku-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1077
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/yangcheongu-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1084
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/yeongdeungpogu-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1085
+License: CCBY
+Required attribution: Yes
+
+kr/seoul/yongsangu-old
+Website: http://data.seoul.go.kr/openinf/sheetview.jsp?infId=OA-1086
+License: CCBY
+Required attribution: Yes
+
+kw/countrywide-arabic
+Website: https://www.paci.gov.kw/
+License: Unknown
+Required attribution: PACI. The Public Authority for Civil Information
+
+kw/countrywide-latin
+Website: https://www.paci.gov.kw/
+License: Unknown
+Required attribution: PACI. The Public Authority for Civil Information
+
+kz/ala-statewide
+Website: Unknown
+License: Unknown
+Required attribution: Комитет по правовой статистике и специальным учетам Генеральной прокуратуры Республики Казахстан
+
+kz/asa-statewide
+Website: Unknown
+License: Unknown
+Required attribution: Комитет по правовой статистике и специальным учетам Генеральной прокуратуры Республики Казахстан
+
+kz/countrywide
+Website: Unknown
+License: Unknown
+Required attribution: Комитет по правовой статистике и специальным учетам Генеральной прокуратуры Республики Казахстан
+
+nc/countrywide
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+nz/bay_of_plenty/rotorua
+Website: http://opendata.arcgis.com/datasets/a382c2f4421645dda3c80206bd7bc8ad_14
+License: Unknown
+Required attribution: Yes
+
+nz/city_of_palmerston_north
+Website: http://data-pncc.opendata.arcgis.com/datasets/af0f40a1e7da43b4bd550f66a3ba887e_0
+License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Required attribution: Palmerston North City Council
+
+nz/countrywide
+Website: https://data.linz.govt.nz/layer/53353-nz-street-address/
+License: CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/)
+Required attribution: Land Information New Zealand
+
+nz/greater_wellington
+Website: http://data-gwrc.opendata.arcgis.com/datasets/57ad4f42b0d84967b0da9da9b09c4c9b_0
+License: CC BY-ND 3.0 (https://creativecommons.org/licenses/by-nd/3.0/)
+Required attribution: Greater Wellington Regional Council
+
+qa/qatar
+Website: http://www.gisqatar.org.qa/en/page2/page10/test.php
+License: Unknown
+Required attribution: Yes
+
+sa/al-madinah/yanbu-ar
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+sa/al-madinah/yanbu-en
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+sg/countrywide
+Website: http://whereto.sg
+License: Unknown
+Required attribution: Yes
+
+tw/cyi/regionwide
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+tw/hua/regionwide
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+tw/ila/datong
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+tw/ila/dongshan
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+tw/ila/jiaoxi
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+tw/ila/luodong
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+tw/ila/nan-ao
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+tw/ila/sanxing
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+tw/ila/suao
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+tw/ila/toucheng
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+tw/ila/wujie
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+tw/ila/yilan
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+tw/ila/yuanshan
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+tw/ila/zhuangwei
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+tw/khh/regionwide
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+tw/mia/regionwide-en
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+tw/mia/regionwide-zh
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+tw/nwt/regionwide
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+tw/tao/regionwide
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+tw/tnn/regionwide
+Website: Unknown
+License: Unknown
+Required attribution: Yes
+
+tw/tpe/regionwide
+Website: Unknown
+License: Unknown
+Required attribution: Yes
