@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+#%%
 """
 Scipy Examples
 @author: AMITAVA

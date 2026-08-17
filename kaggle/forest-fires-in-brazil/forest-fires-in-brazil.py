@@ -3,13 +3,32 @@
 @Amitava Chakraborty
 """
 """
-Forest Fires are a serious problem in Brazil. Understanding the frequency of forest fires in a time series 
-can help to take action to prevent them. Being able to pin-point where and when that frequency is most 
-observed should give some clarity on what is the scope we are looking at.
+Forest Fires are a serious problem in Brazil. 
+Understanding the frequency of forest fires in a time series can help to take action to prevent 
+them. Being able to pin-point where and when that frequency is most observed should give some 
+clarity on what is the scope we are looking at.
+
+In the light of the recent startling events of the wildfires in the Amazon, I decided to run a 
+short descriptive analysis for Brazil fires in the last ~ 20 years. 
+Media gave me some curiosities and questions that I wanted to check with real data and 
+unbiased mindset.
 
 Data Source
-A small dataset - around 6,500 observations and 5 features - a mix between categorical and numeric values.
+A small dataset - around 6,500 observations and 5 features - a mix between 
+categorical and numeric values; starting 1998 to 2017, on months, for every state in Brazil
+
+Additional information for the curious
+Mato Grosso is Brazil’s third largest state. This state has a small weight of people from total 
+population of Brazil, about 1.5%, but a very strong agricultural industry. In the past, the state 
+of Mato Grosso has been one of Brazil’s largest emitters of CO², due to forest fires and 
+deforestation, driven by its strong agriculture based economy. However, they reduced the 
+massive deforestation starting 2004. 
+
+
+
 """
+#%% - I. Module Imports
+
 import numpy as np
 import pandas as pd
 from mpl_toolkits.mplot3d import Axes3D
@@ -18,13 +37,11 @@ import plotly.graph_objects as go
 import plotly.express as px
 import plotly
 import matplotlib.pyplot as plt
-%matplotlib inline
+#%matplotlib inline
 import seaborn as sns
 
-
 sns.set_style('whitegrid')
-
-#%% - Read Data File 
+#%% - II. Data Imports Read Data File 
 original_df=pd.read_csv('amazon.csv', encoding='latin1')
 
 #Good Practice : Copy the initial dataframe
@@ -32,11 +49,11 @@ df = original_df.copy()
 nRow, nCol = df.shape
 print(f'There are {nRow} rows and {nCol} columns')
 #Length of the dataset
-print(len(df))
+print(f'Total # of rows {len(df)}')
 
 #examining head of the dataset
 print(df.head(10))
-
+#There are 6454 variables, with the first registration being in 1998, and the last in 2017.
 #%% - Understanding Data - Preliminary Exploratory Analysis with data corrections
 
 print(df.info())
@@ -45,7 +62,10 @@ df['date'] = pd.to_datetime(df['date'], format = '%Y-%m-%d')
 original_df.info()
 
 df.describe()
-
+#%% - 
+statistics = df['number'].describe().reset_index()
+statistics.style.format({"number": "{:20,.0f}"}).highlight_max(color='#FFB27A')
+#%%
 #Good Practice : Is there are any nulls we are dealing with (missing data)
 print (df.isna().sum())
 
@@ -64,8 +84,155 @@ df.month.unique()
 months={'January':1, 'February':2, 'March':3, 'April':4, 'May':5, 'June':6, 
         'July':7, 'August':8, 'September':9, 'October':10, 'November':11, 'December':12}
 df['monthNumber'] = df.month.map(months)
+df.head(5)
+df.dtypes
+#%%
+# Group data by year, state, month
+year_mo_state = df.drop(columns=['date']).groupby(by = ['year','state', 'month']).sum().reset_index()
+year_mo_state.head()
+#%% - III. Visuals and understanding
+#Fires increased dramatically in the last 20 years, from 20,000 in 1998 to almost double in 
+# 2017. What's also alarming is that there is also an increasing trend in the data, 
+# so we can expect even more wildfires in the years to follow.
+# 2003 and 2016 had the most wildfires throughout Brazil.
 
-#Good Practice : No. of obs. with "date" year not matching with "year" variable
+# Set up the defaults
+sns.set_style('whitegrid')
+from matplotlib.pyplot import MaxNLocator, FuncFormatter
+
+plt.figure(figsize=(16,9))
+
+# Make the plot
+ax = sns.lineplot(x = 'year', y = 'number', data = year_mo_state, estimator = 'sum', color = '#FF5555', 
+                  lw = 3.5, err_style = None , alpha = 0.85)
+# Create a line
+import pylab as p
+p.arrow( 1998, 25000, 19, 15000, facecolor="#FFB27A", edgecolor="#FFB27A", head_width=0, head_length=0, length_includes_head = False,
+       width = 0.15, alpha = 0.7, shape = "full")
+
+# Make pretty
+plt.title('Total Fires in Brazil : 1998 - 2017', fontsize = 25)
+plt.xlabel('Year', fontsize = 20)
+plt.ylabel('Number of Fires', fontsize = 20)
+plt.xticks(fontsize = 15)
+plt.yticks(fontsize = 15)
+
+ax.xaxis.set_major_locator(plt.MaxNLocator(19))
+ax.set_xlim(1998, 2017)
+
+ax.get_yaxis().set_major_formatter(plt.FuncFormatter(lambda x, p: format(int(x), ',')))
+#%%
+# View by months doesn't bring anything unexpected. There are many more fires occuring in the 
+# second half of the year than the first one, especially in the late summer to beginning of autumn.
+# Figure size
+plt.figure(figsize=(220,12))
+
+# The plot
+sns.boxplot(x = 'month', 
+            order = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September','October', 'November', 'December'], 
+            y = 'number', data = year_mo_state, palette = "coolwarm", 
+            saturation = 1, width =0.7, fliersize=5, linewidth=1)
+
+# Make pretty
+plt.title('Fires in Brazil by Month', fontsize = 25)
+plt.xlabel('Month', fontsize = 18)
+plt.ylabel('Number of Fires', fontsize = 18)
+plt.xticks(fontsize = 8)
+plt.yticks(fontsize = 15)
+#%%
+#The Amazon State
+#After this, I wanted to check especially the Amazon State, as it is the most discussed in the 
+# media.
+#I can say I was surprised of the results: 
+# Distribution throughout the years for Amazon looks more like a random walk, with many high 
+# and low peaks, but with no increasing trend whatsoever.
+# First create the data
+year_mo_state_Amazon = df[df['state'] == 'Amazonas'].drop(columns=['date']).groupby(by = ['year','state', 'month']).sum().reset_index()
+
+# Set up the figure size
+plt.figure(figsize=(16,9))
+
+# CReate the plot
+ax = sns.lineplot(x = 'year', y = 'number', data = year_mo_state_Amazon, estimator = 'sum', 
+                color = '#FF2323', lw = 3.5, err_style = None, alpha = 0.85)
+# Add line
+p.arrow( 1998, 1500, 19, 0, facecolor="#FFB27A", edgecolor="#FFB27A", head_width=0, 
+        head_length=0, length_includes_head = False, width = 20, alpha = 0.7, shape = "full")
+
+# Make pretty
+plt.title('Total Fires in Amazon : 1998 - 2017', fontsize = 25)
+plt.xlabel('Year', fontsize = 20)
+plt.ylabel('Number of Fires', fontsize = 20)
+plt.xticks(fontsize = 15)
+plt.yticks(fontsize = 15)
+
+ax.xaxis.set_major_locator(plt.MaxNLocator(19))
+ax.set_xlim(1998, 2017)
+
+ax.get_yaxis().set_major_formatter(plt.FuncFormatter(lambda x, p: format(int(x), ',')))
+#%% - How many unique states?
+df.state.unique()
+print('Nos. of unique states = {}'.format(df['state'].nunique()))
+#%% - chekcing how many fires were reported in 20 years 
+df.number.sum()
+#%% - cheking the numeric percentile distribution for the fires reported
+df.number.describe()
+#%%
+#We see that 50% percentile from all observations (across all months, years and regions) 
+# sums up to 24 fire reports.
+# Also in the dataset, Amazon State isn't by far the place where most 
+# of the fires in Brazil occure.
+#Top 3 states are:
+#Mato Grosso (an outlier, with a total sum of wildfires in the analysed period of 96k)
+#Paraiba (52k)
+#Sao Paulo (51k) ...
+#Amazon has the 10th place in this ranking.
+#And the Amazon forest spread on multiple states, not only the Amazonian State.
+# Creating the top 10 dataframe
+states_fires = df.groupby(by = 'state')['number'].sum().sort_values(ascending = False).head(10).reset_index()
+states_fires = states_fires.sort_values(by = 'number', ascending = True)
+
+states_fires
+#%%
+# Set figure size
+plt.figure(figsize = (16, 9))
+
+# plot
+ax = sns.barplot(x = states_fires['state'], y = states_fires['number'], 
+                palette = "Reds", alpha = 0.85)
+
+# Make pretty
+plt.title("Top 10 most affected states", fontsize = 25)
+plt.xlabel("State", fontsize = 20)
+plt.ylabel("Sum of Wildfires", fontsize = 20)
+plt.xticks(fontsize = 15)
+plt.yticks(fontsize = 15)
+plt.legend(fontsize = 15)
+#%%
+#In the graph below you can see how far Mato Grosso is from the other states in terms of wildfires. 
+# It looks like it is also the only one increasing, while the others have a ~ "white noise" 
+# distribution, like we saw for Amazon.
+# Prepare the data
+year_mo_state_top_states = df[df['state'].isin(['Amazonas','Mato Grosso','Paraiba','Sao Paulo','Rio'])].drop(columns=['date']).groupby(by = ['year','state', 'month']).sum().reset_index()
+
+# The plot
+plt.figure(figsize=(16,9))
+ax = sns.lineplot(x = 'year', y = 'number', data = year_mo_state_top_states, hue = 'state', estimator = 'sum', lw = 3.5, 
+                  err_style = None, palette = ["#FF2323", "#FFA653", "#FF6E6E", "#FF8411", "#FFDA11"])
+
+# Make pretty
+plt.title('Total Fires in Amazon : 1998 - 2017', fontsize = 25)
+plt.xlabel('Year', fontsize = 20)
+plt.ylabel('Number of Fires', fontsize = 20)
+plt.xticks(fontsize = 15)
+plt.yticks(fontsize = 15)
+
+ax.xaxis.set_major_locator(plt.MaxNLocator(19))
+ax.set_xlim(1998, 2017)
+
+ax.get_yaxis().set_major_formatter(plt.FuncFormatter(lambda x, p: format(int(x), ',')))
+ax.legend(loc='center left', bbox_to_anchor=(1, 0.5), prop={'size': 14})
+#%% - #Good Practice : No. of obs. with "date" year not matching with "year" variable
 df['date'].dt.day.nunique()
 print('No. of obs. with "date" year not matching with "year" variable (out of {} obs.) = {}'.\
       format(df.shape[0], sum(df['year'] != df['date'].dt.year)))
@@ -102,19 +269,6 @@ df.numOfFires.hist()
 plt.xlabel('Nos. of Fires')
 plt.ylabel('Freqncy of occurence')
 plt.show()
-
-#How many unique states?
-df.state.unique()
-print('Nos. of unique states = {}'.format(df['state'].nunique()))
-
-#cheking the numeric percentile distribution for the fires reported
-df.numOfFires.describe()
-#Interesting observation - 50% percentile from all observations (across all months, years and regions) 
-#sums up to 24 fire reports.
-
-#But, how many fires were reported in 20 years?
-df.numOfFires.sum()
-
 #%% - Direct Analysis - The quick and dirty visualization
 #Statewise num of fires for all years & months
 df.groupby('state')['numOfFires'].sum().sort_values(ascending=False)
@@ -127,13 +281,12 @@ sns.palplot(sns.color_palette("hls", 8))
 plt.figure(figsize=(16,5))
 sns.barplot(x=df['Year'], y=df['numOfFires'], estimator=sum)
 plt.xticks(fontsize=11, rotation=90)
-
-#State vs Year Heatmap
+#%% - State vs Year Heatmap
 heat = df.pivot_table(index='Year', columns='state', values='numOfFires', aggfunc=sum)
 plt.figure(figsize=(16,11))
 sns.heatmap(heat)
 
-#Month Number vs. State Heatmap
+#%% - Month Number vs. State Heatmap
 df.pivot_table(values='numOfFires',index='state', columns='monthNumber', aggfunc=sum)
 plt.figure(figsize=(16,11))
 sns.heatmap(df.pivot_table(values='numOfFires',index='state', columns='monthNumber', aggfunc=sum))
