@@ -31,7 +31,7 @@ for date ,price in zip(data['date'],data['price']):
 print (date_parameter)
 print (price_parameter)
 
-year = [[2020]] #find value for this year
+year = [[2026]] #find value for this year
 result = linear_model_main(date_parameter,price_parameter,year)
 
 print("Predition for usd vs inr on :",year," value is ",result['predicted_value'])

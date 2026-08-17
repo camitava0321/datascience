@@ -178,7 +178,7 @@ for changepoint in [0.001, 0.05, 0.1, 0.15, 0.35, 0.5]:
     future = model.predict(future)
     
     tesla[changepoint] = future['yhat']
-    print 'changepoint', changepoint, " done"
+    print ('changepoint', changepoint, " done")
 
 # Create the plot
 plt.figure(figsize=(10, 8))

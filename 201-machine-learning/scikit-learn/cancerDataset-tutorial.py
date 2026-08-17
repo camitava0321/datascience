@@ -11,6 +11,6 @@ from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 
 cancer = load_breast_cancer()
-print cancer
+print (cancer)
 
  
