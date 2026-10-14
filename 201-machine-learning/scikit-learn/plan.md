@@ -1,0 +1,24 @@
+scikit_learn_examples/
+ README.md
+ requirements.txt
+ data/
+    (sample datasets)
+ 001-classification/
+    logistic_regression.py
+    svm.py
+    decision_tree.py
+    ...
+ regression/
+    linear_regression.py
+    ridge_regression.py
+    ...
+ clustering/
+    kmeans.py
+    dbscan.py
+    ...
+ dimensionality_reduction/
+    pca.py
+    tsne.py
+    ...
+ utils/
+     data_loader.py
